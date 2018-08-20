@@ -21,7 +21,7 @@ QtQuick方式的界面开发扩展库, 皮肤动态切换, 全局控件操作, �
 * 提供自定义功能, 比如checkbox的图标显示大小, 颜色, 位置
 * 后续会出专有的皮肤文件编辑器
 
-#####1. 使用方法:
+####1. 使用方法:
   * 集成:
 	拷贝SilkQmlControls文件夹到Qt安装路径\kit\qml下
 	如: C:\Qt\Qt5.9.6\5.9.6\msvc2017_64\qml
@@ -39,7 +39,7 @@ QtQuick方式的界面开发扩展库, 皮肤动态切换, 全局控件操作, �
 	```
 	改造工程的话 可以直接在原生组件名前加SilkQml, Text->SilkQmlText
 
-#####2. 部署方法:
+####2. 部署方法:
 	拷贝SilkQmlControls文件夹到程序生成根目录即可
 ```
 SilkQmlControls               //SilkQml界面库目录
@@ -52,6 +52,9 @@ SilkQmlControls               //SilkQml界面库目录
         ccc.ztz               //自定义皮肤文件
 myapp.exe                     //自己的程序
 ```
+
+####3. 皮肤文件的制作:
+
 
 
 #### 联系方式:
