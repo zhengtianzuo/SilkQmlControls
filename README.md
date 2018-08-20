@@ -19,6 +19,7 @@ QtQuick方式的界面开发扩展库, 皮肤动态切换, 全局控件操作, �
 * 除了基础组件, 会不断更新出各种高级扩展控件, 自由选择
 * 可完全使用皮肤文件, 工程不需要配额外的图形打包到qrc中
 * 提供自定义功能, 比如checkbox的图标显示大小, 颜色, 位置
+* 提供全套组件, 包括QtQuick.Controls 2.0缺少的很多组件, 如TableView
 * 后续会出专有的皮肤文件编辑器
 
 #### 1. 使用方法:
@@ -55,6 +56,31 @@ myapp.exe                     //自己的程序
 
 #### 3. 皮肤文件的制作:
 
+
+
+
+#### 目前开发进度
+|组件名|类型|对应原生组件|进度
+|---|---|---|---
+|SilkQmlItem|基础|Item|完成
+|SilkQmlText|基础|Text|完成
+|SilkQmlRectangle|基础|Rectangle|完成
+|SilkQmlButton|基础|Button|完成
+|SilkQmlCheckBox|基础|CheckBox|完成
+|SilkQmlRadioButton|基础|RadioButton|完成
+|SilkQmlSpinBox|基础|SpinBox|进行中
+|SilkQmlSlider|基础|Slider|计划中
+|SilkQmlSwitch|基础|Switch|计划中
+|SilkQmlComboBox|基础|ComboBox|计划中
+|SilkQmlToolButton|基础|ToolButton|计划中
+|SilkQmlMenuBar|基础|MenuBar|计划中
+|SilkQmlStatusBar|基础|StatusBar|计划中
+|SilkQmlToolBar|基础|ToolBar|计划中
+|SilkQmlTabView|基础|TabView|计划中
+|SilkQmlTableView|基础|TableView|计划中
+|SilkQmlTreeView|基础|TreeView|计划中
+|SilkQmlBusyIndicator|基础|BusyIndicator|计划中
+|SilkQmlCalendar|基础|Calendar|计划中
 
 
 #### 联系方式:
