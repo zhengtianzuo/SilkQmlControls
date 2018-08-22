@@ -49,9 +49,9 @@ SilkQmlControls               //SilkQml界面库目录
     SilkQmlControls.dll       //SilkQml界面库运行库
     Skins                     //SilkQml界面库皮肤目录
       SilkSkin.Ztz            //默认皮肤文件
-        aaa.ztz               //自定义皮肤文件
-        bbb.ztz               //自定义皮肤文件
-        ccc.ztz               //自定义皮肤文件
+      aaa.ztz                 //自定义皮肤文件
+      bbb.ztz                 //自定义皮肤文件
+      ccc.ztz                 //自定义皮肤文件
 myapp.exe                     //自己的程序
 ```
 
@@ -69,9 +69,9 @@ myapp.exe                     //自己的程序
 |SilkQmlButton|基础|Button|完成
 |SilkQmlCheckBox|基础|CheckBox|完成
 |SilkQmlRadioButton|基础|RadioButton|完成
-|SilkQmlSpinBox|基础|SpinBox|进行中
-|SilkQmlSlider|基础|Slider|计划中
-|SilkQmlSwitch|基础|Switch|计划中
+|SilkQmlSpinBox|基础|SpinBox|完成
+|SilkQmlSlider|基础|Slider|完成
+|SilkQmlSwitch|基础|Switch|进行中
 |SilkQmlComboBox|基础|ComboBox|计划中
 |SilkQmlToolButton|基础|ToolButton|计划中
 |SilkQmlMenuBar|基础|MenuBar|计划中
