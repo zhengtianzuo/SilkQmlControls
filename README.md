@@ -82,6 +82,7 @@ myapp.exe                     //自己的程序
 |SilkQmlMenuBar|基础|Menu 2.x|计划中
 |SilkQmlMenuBar|基础|MenuBar 2.x|计划中
 |SilkQmlStatusBar|基础|StatusBar 1.4|计划中
+|SilkQmlScrollBar|基础|ScrollBar 2.x|计划中
 |SilkQmlProgressBar|基础|ProgressBar 2.x|计划中
 |SilkQmlDelayButton|基础|DelayButton 2.x|计划中
 |SilkQmlDial|基础|Dial 2.x|计划中
