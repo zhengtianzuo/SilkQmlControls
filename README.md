@@ -26,8 +26,7 @@ QtQuick方式的界面开发扩展库
 #### 1. 使用方法:
   * 集成:
 	拷贝SilkQmlControls文件夹到Qt安装路径\kit\qml下
-	如: C:\Qt\Qt5.9.6\5.9.6\msvc2017_64\qml
-	搞定, 重新打开QtCreator即可开始使用
+	如: C:\Qt\Qt5.9.6\5.9.6\msvc2017_64\qml, 重新打开QtCreator即可开始使用
 
   * 导入界面库使用
 	import SilkQmlControls 1.0
@@ -57,31 +56,47 @@ myapp.exe                     //自己的程序
 
 #### 3. 皮肤文件的制作:
 
-
+#### 4. 高级全局功能:
+  * 一行代码全局换肤:
+  * 同类型组件全局控制:
+  * 区域内组件全局控制:
+  * 更多功能策划中...
 
 
 #### 目前开发进度
 |组件名|类型|对应原生组件|进度
 |---|---|---|---
-|SilkQmlItem|基础|Item|完成
-|SilkQmlText|基础|Text|完成
-|SilkQmlRectangle|基础|Rectangle|完成
-|SilkQmlButton|基础|Button|完成
-|SilkQmlCheckBox|基础|CheckBox|完成
-|SilkQmlRadioButton|基础|RadioButton|完成
-|SilkQmlSpinBox|基础|SpinBox|完成
-|SilkQmlSlider|基础|Slider|完成
-|SilkQmlSwitch|基础|Switch|进行中
-|SilkQmlComboBox|基础|ComboBox|计划中
-|SilkQmlToolButton|基础|ToolButton|计划中
-|SilkQmlMenuBar|基础|MenuBar|计划中
-|SilkQmlStatusBar|基础|StatusBar|计划中
-|SilkQmlToolBar|基础|ToolBar|计划中
-|SilkQmlTabView|基础|TabView|计划中
-|SilkQmlTableView|基础|TableView|计划中
-|SilkQmlTreeView|基础|TreeView|计划中
-|SilkQmlBusyIndicator|基础|BusyIndicator|计划中
-|SilkQmlCalendar|基础|Calendar|计划中
+|SilkQmlItem|基础|Item 2.x|完成
+|SilkQmlText|基础|Text 2.x|完成
+|SilkQmlRectangle|基础|Rectangle 2.x|完成
+|SilkQmlButton|基础|Button 2.x|完成
+|SilkQmlCheckBox|基础|CheckBox 2.x|完成
+|SilkQmlRadioButton|基础|RadioButton 2.x|完成
+|SilkQmlSpinBox|基础|SpinBox 2.x|完成
+|SilkQmlSlider|基础|Slider 2.x|完成
+|SilkQmlSwitch|基础|Switch 2.x|进行中
+|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|计划中
+|SilkQmlComboBox|基础|ComboBox 2.x|计划中
+|SilkQmlToolButton|基础|ToolButton 2.x|计划中
+|SilkQmlToolButton|基础|ToolBar 2.x|计划中
+|SilkQmlMenuBar|基础|Menu 2.x|计划中
+|SilkQmlMenuBar|基础|MenuBar 2.x|计划中
+|SilkQmlStatusBar|基础|StatusBar 1.4|计划中
+|SilkQmlProgressBar|基础|ProgressBar 2.x|计划中
+|SilkQmlDelayButton|基础|DelayButton 2.x|计划中
+|SilkQmlDial|基础|Dial 2.x|计划中
+|SilkQmlToolTip|高级|ToolTip 2.x|计划中
+|SilkQmlListView|高级|ListView 2.x|计划中
+|SilkQmlTabView|高级|TabView 1.4|计划中
+|SilkQmlTableView|高级|TableView 1.4|计划中
+|SilkQmlTreeView|高级|TreeView 1.4|计划中
+|SilkQmlCalendar|高级|Calendar 1.4|计划中
+|SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
+|SilkQmlFileDialog|高级|FileDialog 1.3|计划中
+|SilkQmlFontDialog|高级|FontDialog 1.3|计划中
+|SilkQmlDialog|高级|Dialog 2.x|计划中
+|SilkQmlImage|高级|Image 2.x|计划中
+
 
 
 #### 联系方式:
