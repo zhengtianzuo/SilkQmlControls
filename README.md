@@ -69,6 +69,7 @@ myapp.exe                     //自己的程序
 |SilkQmlItem|基础|Item 2.x|完成
 |SilkQmlText|基础|Text 2.x|完成
 |SilkQmlRectangle|基础|Rectangle 2.x|完成
+|SilkQmlImage|基础|Image 2.x|计划中
 |SilkQmlButton|基础|Button 2.x|完成
 |SilkQmlCheckBox|基础|CheckBox 2.x|完成
 |SilkQmlRadioButton|基础|RadioButton 2.x|完成
@@ -92,11 +93,10 @@ myapp.exe                     //自己的程序
 |SilkQmlTableView|高级|TableView 1.4|计划中
 |SilkQmlTreeView|高级|TreeView 1.4|计划中
 |SilkQmlCalendar|高级|Calendar 1.4|计划中
+|SilkQmlDialog|高级|Dialog 2.x|计划中
 |SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
 |SilkQmlFileDialog|高级|FileDialog 1.3|计划中
 |SilkQmlFontDialog|高级|FontDialog 1.3|计划中
-|SilkQmlDialog|高级|Dialog 2.x|计划中
-|SilkQmlImage|高级|Image 2.x|计划中
 
 
 
