@@ -69,13 +69,13 @@ myapp.exe                     //自己的程序
 |SilkQmlItem|基础|Item 2.x|完成
 |SilkQmlText|基础|Text 2.x|完成
 |SilkQmlRectangle|基础|Rectangle 2.x|完成
-|SilkQmlImage|基础|Image 2.x|计划中
+|SilkQmlImage|基础|Image 2.x|完成
 |SilkQmlButton|基础|Button 2.x|完成
 |SilkQmlCheckBox|基础|CheckBox 2.x|完成
 |SilkQmlRadioButton|基础|RadioButton 2.x|完成
 |SilkQmlSpinBox|基础|SpinBox 2.x|完成
 |SilkQmlSlider|基础|Slider 2.x|完成
-|SilkQmlSwitch|基础|Switch 2.x|进行中
+|SilkQmlSwitch|基础|Switch 2.x|完成
 |SilkQmlBusyIndicator|基础|BusyIndicator 2.x|计划中
 |SilkQmlComboBox|基础|ComboBox 2.x|计划中
 |SilkQmlToolButton|基础|ToolButton 2.x|计划中
