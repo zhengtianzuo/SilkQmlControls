@@ -56,7 +56,7 @@ myapp.exe                     //自己的程序
 
 #### 3. 皮肤文件的制作:
     后续会出专有的皮肤文件编辑器
-    
+
 #### 4. 高级全局功能:
   * 一行代码全局换肤:
   * 同类型组件全局控制:
@@ -78,12 +78,12 @@ myapp.exe                     //自己的程序
 |SilkQmlSlider|基础|Slider 2.x|完成
 |SilkQmlSwitch|基础|Switch 2.x|完成
 |SilkQmlProgressBar|基础|ProgressBar 2.x|完成
-|SilkQmlDelayButton|基础|DelayButton 2.x|计划中
-|SilkQmlToolButton|基础|ToolButton 2.x|计划中
-|SilkQmlToolButton|基础|ToolBar 2.x|计划中
-|SilkQmlComboBox|基础|ComboBox 2.x|计划中
-|SilkQmlScrollBar|基础|ScrollBar 2.x|计划中
-|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|计划中
+|SilkQmlDelayButton|基础|DelayButton 2.x|完成
+|SilkQmlToolButton|基础|ToolButton 2.x|完成
+|SilkQmlToolButton|基础|ToolBar 2.x|进行中
+|SilkQmlComboBox|基础|ComboBox 2.x|进行中
+|SilkQmlScrollBar|基础|ScrollBar 2.x|进行中
+|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|进行中
 |SilkQmlDial|基础|Dial 2.x|计划中
 |SilkQmlToolTip|高级|ToolTip 2.x|计划中
 |SilkQmlMenuBar|基础|Menu 2.x|计划中
