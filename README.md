@@ -80,7 +80,7 @@ myapp.exe                     //自己的程序
 |SilkQmlProgressBar|基础|ProgressBar 2.x|完成
 |SilkQmlDelayButton|基础|DelayButton 2.x|完成
 |SilkQmlToolButton|基础|ToolButton 2.x|完成
-|SilkQmlToolButton|基础|ToolBar 2.x|进行中
+|SilkQmlToolButton|基础|ToolBar 2.x|完成
 |SilkQmlComboBox|基础|ComboBox 2.x|进行中
 |SilkQmlScrollBar|基础|ScrollBar 2.x|进行中
 |SilkQmlBusyIndicator|基础|BusyIndicator 2.x|进行中
