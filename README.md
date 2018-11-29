@@ -63,6 +63,9 @@ myapp.exe                     //自己的程序
   * 区域内组件全局控制:
   * 更多功能策划中...
 
+#### 5. 效果预览图:
+
+
 
 #### 目前开发进度
 |组件名|类型|对应原生组件|进度
@@ -81,14 +84,15 @@ myapp.exe                     //自己的程序
 |SilkQmlDelayButton|基础|DelayButton 2.x|完成
 |SilkQmlToolButton|基础|ToolButton 2.x|完成
 |SilkQmlToolButton|基础|ToolBar 2.x|完成
-|SilkQmlComboBox|基础|ComboBox 2.x|进行中
-|SilkQmlScrollBar|基础|ScrollBar 2.x|进行中
-|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|进行中
-|SilkQmlDial|基础|Dial 2.x|计划中
+|SilkQmlComboBox|基础|ComboBox 2.x|完成
+|SilkQmlScrollBar|基础|ScrollBar 2.x|完成
+|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|完成
+|SilkQmlDial|基础|Dial 2.x|完成
+| | | |
+|SilkQmlMenuBar|高级|Menu 2.x|计划中
+|SilkQmlMenuBar|高级|MenuBar 2.x|计划中
+|SilkQmlStatusBar|高级|StatusBar 1.4|计划中
 |SilkQmlToolTip|高级|ToolTip 2.x|计划中
-|SilkQmlMenuBar|基础|Menu 2.x|计划中
-|SilkQmlMenuBar|基础|MenuBar 2.x|计划中
-|SilkQmlStatusBar|基础|StatusBar 1.4|计划中
 |SilkQmlListView|高级|ListView 2.x|计划中
 |SilkQmlTabView|高级|TabView 1.4|计划中
 |SilkQmlTableView|高级|TableView 1.4|计划中
