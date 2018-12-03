@@ -89,7 +89,7 @@ myapp.exe                     //自己的程序
 |SilkQmlBusyIndicator|基础|BusyIndicator 2.x|完成
 |SilkQmlDial|基础|Dial 2.x|完成
 | | | |
-|SilkQmlMenuBar|高级|Menu 2.x|计划中
+|SilkQmlMenu|高级|Menu 2.x|计划中
 |SilkQmlMenuBar|高级|MenuBar 2.x|计划中
 |SilkQmlStatusBar|高级|StatusBar 1.4|计划中
 |SilkQmlToolTip|高级|ToolTip 2.x|计划中
