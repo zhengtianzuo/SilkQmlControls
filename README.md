@@ -1,6 +1,10 @@
 ![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControls.jpg?raw=true)
 
 # SilkQmlControls
+
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsPage.png?raw=true)
+
+中文名: 三峰驼
 QtQuick方式的界面开发扩展库
 这个项目的初衷在于, 提供一套完整的QtQuick界面库, 自带皮肤动态切换功能, 换肤换色, 一行代码完成. 提供配套的皮肤文件编辑器, 大大缩短开发时间. 另外不断开发扩展组件, 丰富功能. 弥补QtQuick2.0下很多缺失的组件功能, 如TableView.
 
