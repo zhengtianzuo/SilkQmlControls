@@ -5,7 +5,7 @@
 ![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsPage.png?raw=true)
 
 中文名: 三峰驼
-QtQuick方式的界面开发扩展库  **非开源** 
+QtQuick方式的界面开发扩展库  **非开源**
 这个项目的初衷在于, 提供一套完整的QtQuick界面库, 自带皮肤动态切换功能, 换肤换色, 一行代码完成. 提供配套的皮肤文件编辑器, 大大缩短开发时间. 另外不断开发扩展组件, 丰富功能. 弥补QtQuick2.0下很多缺失的组件功能, 如TableView.
 
 ![](https://img.shields.io/badge/%E7%89%88%E6%9D%83%E8%AE%B8%E5%8F%AF-MIT-orange.svg)
@@ -93,21 +93,19 @@ myapp.exe                     //自己的程序
 |SilkQmlBusyIndicator|基础|BusyIndicator 2.x|完成
 |SilkQmlDial|基础|Dial 2.x|完成
 | | | |
+|SilkQmlToolTip|高级|ToolTip 2.x|进行中
+|SilkQmlDialog|高级|Dialog 2.x|进行中
+|SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
+|SilkQmlFileDialog|高级|FileDialog 1.3|计划中
+|SilkQmlFontDialog|高级|FontDialog 1.3|计划中
 |SilkQmlMenu|高级|Menu 2.x|计划中
 |SilkQmlMenuBar|高级|MenuBar 2.x|计划中
 |SilkQmlStatusBar|高级|StatusBar 1.4|计划中
-|SilkQmlToolTip|高级|ToolTip 2.x|计划中
 |SilkQmlListView|高级|ListView 2.x|计划中
 |SilkQmlTabView|高级|TabView 1.4|计划中
 |SilkQmlTableView|高级|TableView 1.4|计划中
 |SilkQmlTreeView|高级|TreeView 1.4|计划中
 |SilkQmlCalendar|高级|Calendar 1.4|计划中
-|SilkQmlDialog|高级|Dialog 2.x|计划中
-|SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
-|SilkQmlFileDialog|高级|FileDialog 1.3|计划中
-|SilkQmlFontDialog|高级|FontDialog 1.3|计划中
-
-
 
 #### 联系方式:
 ***
