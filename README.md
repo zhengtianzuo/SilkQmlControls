@@ -98,6 +98,7 @@ myapp.exe                     //自己的程序
 |SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
 |SilkQmlFileDialog|高级|FileDialog 1.3|计划中
 |SilkQmlFontDialog|高级|FontDialog 1.3|计划中
+|SilkQmlMessageDialog|高级|MessageDialog 1.3|计划中
 |SilkQmlMenu|高级|Menu 2.x|计划中
 |SilkQmlMenuBar|高级|MenuBar 2.x|计划中
 |SilkQmlStatusBar|高级|StatusBar 1.4|计划中
@@ -106,6 +107,14 @@ myapp.exe                     //自己的程序
 |SilkQmlTableView|高级|TableView 1.4|计划中
 |SilkQmlTreeView|高级|TreeView 1.4|计划中
 |SilkQmlCalendar|高级|Calendar 1.4|计划中
+| | | |
+|SilkQmlDrawingBoard(画板)|极品||计划中
+|SilkQmlAudioPlayer(音频播放器)|极品||计划中
+|SilkQmlVideoPlayer(视频播放器)|极品||计划中
+|SilkQmlFontTools(字体工具)|极品||计划中
+|SilkQmlScreenShot(截屏工具)|极品||计划中
+|SilkQmlPictureView(图片预览工具)|极品||计划中
+|更多...|极品||计划中
 
 #### 联系方式:
 ***
