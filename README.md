@@ -30,7 +30,7 @@ QtQuick方式的界面开发扩展库  **非开源**
 #### 1. 使用方法:
   * 集成:
 	拷贝SilkQmlControls文件夹到Qt安装路径\kit\qml下
-	如: C:\Qt\Qt5.9.6\5.9.6\msvc2017_64\qml, 重新打开QtCreator即可开始使用
+	如: C:\Qt\Qt5.12.0\5.12.0\msvc2017\qml, 重新打开QtCreator即可开始使用
 
   * 导入界面库使用
 	import SilkQmlControls 1.0
