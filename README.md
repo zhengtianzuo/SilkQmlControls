@@ -65,7 +65,7 @@ myapp.exe                     //自己的程序
 |Win7<br>Win10|5.9.0|MSVC2015<br>MSVC2017|32位<br>64位|支持
 |Win7<br>Win10|5.12.0|MSVC2017|32位<br>64位|支持
 | | | | |
-|Ubuntu 14.04<br>Ubuntu 16.04<br>Ubuntu 18.04|5.7.0<br>5.9.0<br>5.12.0|gcc|32位/64位|计划中
+|Ubuntu 14.04<br>Ubuntu 16.04<br>Ubuntu 18.04|5.7.0<br>5.9.0<br>5.12.0|gcc|32位<br>64位|计划中
 | | | | |
 |Mac Sierra<br>Mac High Sierra<br>Mac Mojave|5.7.0<br>5.9.0<br>5.12.0|clang|32位<br>64位|计划中
 | | | | |
