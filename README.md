@@ -65,13 +65,13 @@ myapp.exe                     //自己的程序
 |Win7<br>Win10|5.11.0|msvc2015 32位<br>msvc2015 64位<br>msvc2017 64位|支持
 |Win7<br>Win10|5.12.0|msvc2015 64位<br>msvc2017 32位<br>msvc2017 64位|支持
 | | | | |
-|Android|5.10.0<br>5.11.0<br>5.12.0|ndk-r15c|ARMv7|计划中
+|Android|5.10.0<br>5.11.0<br>5.12.0|ndk-r15c ARMv7|计划中
 | | | | |
-|IOS|5.10.0<br>5.11.0<br>5.12.0|clang|ARMv7|计划中
+|IOS|5.10.0<br>5.11.0<br>5.12.0|clang ARMv7|计划中
 | | | | |
-|Mac Sierra<br>Mac High Sierra<br>Mac Mojave|5.10.0<br>5.11.0<br>5.12.0|clang|32位<br>64位|计划中
+|Mac Sierra<br>Mac High Sierra<br>Mac Mojave|5.10.0<br>5.11.0<br>5.12.0|clang|计划中
 | | | | |
-|Ubuntu 14.04<br>Ubuntu 16.04<br>Ubuntu 18.04|5.10.0<br>5.11.0<br>5.12.0|gcc|32位<br>64位|计划中
+|Ubuntu 14.04<br>Ubuntu 16.04<br>Ubuntu 18.04|5.10.0<br>5.11.0<br>5.12.0|gcc|计划中
 
 #### 4. 皮肤文件的制作:
     后续会出专有的皮肤文件编辑器
