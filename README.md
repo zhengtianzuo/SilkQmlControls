@@ -2,7 +2,7 @@
 
 # SilkQmlControls
 
-![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsPage.png?raw=true)
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsPage.jpg?raw=true)
 
 中文名: 三峰驼
 QtQuick方式的界面开发扩展库  **非开源**
