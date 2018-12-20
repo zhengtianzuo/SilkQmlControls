@@ -58,12 +58,12 @@ SilkQmlControls               //SilkQml界面库目录
 myapp.exe                     //自己的程序
 ```
 
-#### 3. 测试过的Qt版本:
+#### 3. 支持的Qt版本:
 |操作系统|Qt版本|编译器|支持情况
 |---|---|---|---
-|Win7<br>Win10|5.10.0|msvc2013 64位<br>msvc2015 32位<br>msvc2015 64位<br>msvc2017 64位|支持
-|Win7<br>Win10|5.11.0|msvc2015 32位<br>msvc2015 64位<br>msvc2017 64位|支持
-|Win7<br>Win10|5.12.0|msvc2015 64位<br>msvc2017 32位<br>msvc2017 64位|支持
+|Win7<br>Win10|5.10.0|msvc2015 32位<br>msvc2015 64位<br>msvc2017 32位(自行编译)<br>msvc2017 64位|支持
+|Win7<br>Win10|5.11.0|msvc2015 32位<br>msvc2015 64位<br>msvc2017 32位(自行编译)<br>msvc2017 64位|支持
+|Win7<br>Win10|5.12.0|msvc2015 32位(自行编译)<br>msvc2015 64位<br>msvc2017 32位<br>msvc2017 64位|支持
 | | | | |
 |Android|5.10.0<br>5.11.0<br>5.12.0|ndk-r15c ARMv7|计划中
 | | | | |
