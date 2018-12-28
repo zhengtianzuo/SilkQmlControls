@@ -81,56 +81,74 @@ myapp.exe                     //自己的程序
   * 同类型组件全局控制.
   * 区域内组件全局控制.
   * 控件自适应窗体大小改变.
+  * 支持保存配置, 如窗体大小位置等.
   * 更多功能策划中...
 
 #### 6. 效果预览图:
 
 
+#### 7. 控件等级
+|等级|导入|描述|
+|---|---|---
+|普通|import SilkQmlControls|最基础, 除了三峰驼特有的接口, 其余和原生的一样
+|精英|import SilkQmlControlsElitist|高级扩展, 除了三峰驼特有的接口, 其余和原生的一样
+|卓越|import SilkQmlControlsExcellent|模块化成套, 基本都是独立的功能, 提供自定义
+|传说|import SilkQmlControlsLegendary|行业定制, 按各个行业特色开发的控件
+|史诗|import SilkQmlControlsEpic|具有分布式存储功能, 支持数据分发与同步
+|神话|import SilkQmlControlsMythical|具有连接云端功能, 支持数据上传, 支持远程控制
 
-#### 7. 目前开发进度
-|组件名|类型|对应原生组件|进度
+#### 8. 目前开发进度
+|组件名|等级|对应原生组件|进度
 |---|---|---|---
-|SilkQmlItem|基础|Item 2.x|完成
-|SilkQmlText|基础|Text 2.x|完成
-|SilkQmlRectangle|基础|Rectangle 2.x|完成
-|SilkQmlImage|基础|Image 2.x|完成
-|SilkQmlButton|基础|Button 2.x|完成
-|SilkQmlCheckBox|基础|CheckBox 2.x|完成
-|SilkQmlRadioButton|基础|RadioButton 2.x|完成
-|SilkQmlSpinBox|基础|SpinBox 2.x|完成
-|SilkQmlSlider|基础|Slider 2.x|完成
-|SilkQmlSwitch|基础|Switch 2.x|完成
-|SilkQmlProgressBar|基础|ProgressBar 2.x|完成
-|SilkQmlDelayButton|基础|DelayButton 2.x|完成
-|SilkQmlToolButton|基础|ToolButton 2.x|完成
-|SilkQmlToolBar|基础|ToolBar 2.x|完成
-|SilkQmlComboBox|基础|ComboBox 2.x|完成
-|SilkQmlScrollBar|基础|ScrollBar 2.x|完成
-|SilkQmlBusyIndicator|基础|BusyIndicator 2.x|完成
-|SilkQmlDial|基础|Dial 2.x|完成
+|SilkQmlItem|普通|Item 2.x|完成
+|SilkQmlText|普通|Text 2.x|完成
+|SilkQmlRectangle|普通|Rectangle 2.x|完成
+|SilkQmlImage|普通|Image 2.x|完成
+|SilkQmlButton|普通|Button 2.x|完成
+|SilkQmlCheckBox|普通|CheckBox 2.x|完成
+|SilkQmlRadioButton|普通|RadioButton 2.x|完成
+|SilkQmlSpinBox|普通|SpinBox 2.x|完成
+|SilkQmlSlider|普通|Slider 2.x|完成
+|SilkQmlSwitch|普通|Switch 2.x|完成
+|SilkQmlProgressBar|普通|ProgressBar 2.x|完成
+|SilkQmlDelayButton|普通|DelayButton 2.x|完成
+|SilkQmlToolButton|普通|ToolButton 2.x|完成
+|SilkQmlToolBar|普通|ToolBar 2.x|完成
+|SilkQmlComboBox|普通|ComboBox 2.x|完成
+|SilkQmlScrollBar|普通|ScrollBar 2.x|完成
+|SilkQmlBusyIndicator|普通|BusyIndicator 2.x|完成
+|SilkQmlDial|普通|Dial 2.x|完成
 | | | |
-|SilkQmlToolTip|高级|ToolTip 2.x|进行中
-|SilkQmlDialog|高级|Dialog 2.x|进行中
-|SilkQmlColorDialog|高级|ColorDialog 1.3|计划中
-|SilkQmlFileDialog|高级|FileDialog 1.3|计划中
-|SilkQmlFontDialog|高级|FontDialog 1.3|计划中
-|SilkQmlMessageDialog|高级|MessageDialog 1.3|计划中
-|SilkQmlMenu|高级|Menu 2.x|计划中
-|SilkQmlMenuBar|高级|MenuBar 2.x|计划中
-|SilkQmlStatusBar|高级|StatusBar 1.4|计划中
-|SilkQmlListView|高级|ListView 2.x|计划中
-|SilkQmlTabView|高级|TabView 1.4|计划中
-|SilkQmlTableView|高级|TableView 1.4|计划中
-|SilkQmlTreeView|高级|TreeView 1.4|计划中
-|SilkQmlCalendar|高级|Calendar 1.4|计划中
+|SilkQmlToolTip|精英|ToolTip 2.x|进行中
+|SilkQmlDialog|精英|Dialog 2.x|进行中
+|SilkQmlColorDialog|精英|ColorDialog 1.3|计划中
+|SilkQmlFileDialog|精英|FileDialog 1.3|计划中
+|SilkQmlFontDialog|精英|FontDialog 1.3|计划中
+|SilkQmlMessageDialog|精英|MessageDialog 1.3|计划中
+|SilkQmlMenu|精英|Menu 2.x|计划中
+|SilkQmlMenuBar|精英|MenuBar 2.x|计划中
+|SilkQmlStatusBar|精英|StatusBar 1.4|计划中
+|SilkQmlListView|精英|ListView 2.x|计划中
+|SilkQmlTabView|精英|TabView 1.4|计划中
+|SilkQmlTableView|精英|TableView 1.4|计划中
+|SilkQmlTreeView|精英|TreeView 1.4|计划中
+|SilkQmlCalendar|精英|Calendar 1.4|计划中
 | | | |
-|SilkQmlDrawingBoard(画板)|极品||计划中
-|SilkQmlAudioPlayer(音频播放器)|极品||计划中
-|SilkQmlVideoPlayer(视频播放器)|极品||计划中
-|SilkQmlFontTools(字体工具)|极品||计划中
-|SilkQmlScreenShot(截屏工具)|极品||计划中
-|SilkQmlPictureView(图片预览工具)|极品||计划中
-|更多...|极品||计划中
+|SilkQmlDrawingBoard(画板)|卓越||计划中
+|SilkQmlAudioPlayer(音频播放器)|卓越||计划中
+|SilkQmlVideoPlayer(视频播放器)|卓越||计划中
+|SilkQmlFontTools(字体工具)|卓越||计划中
+|SilkQmlScreenShot(截屏工具)|卓越||计划中
+|SilkQmlPictureView(图片预览工具)|卓越||计划中
+|更多...|卓越||计划中
+| | | |
+|更多...|传说||计划中
+| | | |
+|更多...|史诗||计划中
+| | | |
+|更多...|神话||计划中
+| | | |
+
 
 #### 联系方式:
 ***
