@@ -74,6 +74,7 @@ myapp.exe                     //自己的程序
 |Ubuntu 14.04<br>Ubuntu 16.04<br>Ubuntu 18.04|5.10.0<br>5.11.0<br>5.12.0|gcc|计划中
 
 #### 4. 皮肤文件的制作:
+目前可使用<img src="https://github.com/zhengtianzuo/Camel_FileManagerCExamples/blob/master/CamelFileManagerCDll/dromedary.png?raw=true" width="3%" height="3%" />[单峰驼可视化工具](https://github.com/zhengtianzuo/Camel_FileManagerCExamples)编辑图片资源
     后续会出专有的皮肤文件编辑器
 
 #### 5. 高级全局功能:
