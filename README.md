@@ -126,6 +126,7 @@ myapp.exe                     //自己的程序
 |SilkQmlFileDialog|精英|FileDialog 1.3|计划中
 |SilkQmlFontDialog|精英|FontDialog 1.3|计划中
 |SilkQmlMessageDialog|精英|MessageDialog 1.3|计划中
+|SilkQmlIPAddress|精英||计划中
 |SilkQmlMenu|精英|Menu 2.x|计划中
 |SilkQmlMenuBar|精英|MenuBar 2.x|计划中
 |SilkQmlStatusBar|精英|StatusBar 1.4|计划中
