@@ -136,26 +136,26 @@ myapp.exe                     //自己的程序
 |SilkQmlTreeView|精英|TreeView 1.4|计划中
 |SilkQmlCalendar|精英|Calendar 1.4|计划中
 | | | |
-|SilkQmlHanzi2Pinyin(汉字转拼音)|卓越||计划中
-|SilkQmlYUVPlayer(YUV码流显示)|卓越||计划中
-|SilkQmlComponentManager(Quick组件管理)|卓越||计划中
-|SilkQmlDrawingBoard(画板)|卓越||计划中
-|SilkQmlHttpDownload(Http文件下载)|卓越||计划中
-|SilkQmlDragDrop(对象拖放)|卓越||计划中
-|SilkQmlGenerateQRCode(创建二维码图片)|卓越||计划中
-|SilkQmlScanQRCode(扫描二维码图片)|卓越||计划中
-|SilkQmlKeyboard(虚拟键盘)|卓越||计划中
-|SilkQmlMoveComponent(动态移动对象)|卓越||计划中
-|SilkQmlPopMsg(弹出消息)|卓越||计划中
-|SilkQmlTimeLine(时间刻度条)|卓越||计划中
-|SilkQmlWeather(天气预报)|卓越||计划中
-|SilkQmlNavigationProgress(导航进度)|卓越||计划中
-|SilkQmlCaptcha(验证码)|卓越||计划中
-|SilkQmlAudioPlayer(音频播放器)|卓越||计划中
-|SilkQmlVideoPlayer(视频播放器)|卓越||计划中
-|SilkQmlFontTools(字体工具)|卓越||计划中
-|SilkQmlScreenShot(截屏工具)|卓越||计划中
-|SilkQmlPictureView(图片预览工具)|卓越||计划中
+|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|计划中
+|SilkQmlYUVPlayer|卓越|YUV码流显示|计划中
+|SilkQmlComponentManager|卓越|Quick组件管理|计划中
+|SilkQmlDrawingBoard|卓越|画板|计划中
+|SilkQmlHttpDownload|卓越|Http文件下载|计划中
+|SilkQmlDragDrop|卓越|对象拖放|计划中
+|SilkQmlGenerateQRCode|卓越|创建二维码图片|计划中
+|SilkQmlScanQRCode|卓越|扫描二维码图片|计划中
+|SilkQmlKeyboard|卓越|虚拟键盘|计划中
+|SilkQmlMoveComponent|卓越|动态移动对象|计划中
+|SilkQmlPopMsg|卓越|弹出消息|计划中
+|SilkQmlTimeLine|卓越|时间刻度条|计划中
+|SilkQmlWeather|卓越|天气预报|计划中
+|SilkQmlNavigationProgress|卓越|导航进度|计划中
+|SilkQmlCaptcha|卓越|验证码|计划中
+|SilkQmlAudioPlayer|卓越|音频播放器|计划中
+|SilkQmlVideoPlayer|卓越|视频播放器|计划中
+|SilkQmlFontTools|卓越|字体工具|计划中
+|SilkQmlScreenShot|卓越|截屏工具|计划中
+|SilkQmlPictureView|卓越|图片预览工具|计划中
 |更多...|卓越||计划中
 | | | |
 |更多...|传说||计划中
