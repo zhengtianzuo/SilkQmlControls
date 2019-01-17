@@ -119,6 +119,7 @@ myapp.exe                     //自己的程序
 |SilkQmlScrollBar|普通|ScrollBar 2.x|完成
 |SilkQmlBusyIndicator|普通|BusyIndicator 2.x|完成
 |SilkQmlDial|普通|Dial 2.x|完成
+|SilkQmlIPAddress|普通||计划中
 | | | |
 |SilkQmlToolTip|精英|ToolTip 2.x|进行中
 |SilkQmlDialog|精英|Dialog 2.x|进行中
@@ -126,7 +127,6 @@ myapp.exe                     //自己的程序
 |SilkQmlFileDialog|精英|FileDialog 1.3|计划中
 |SilkQmlFontDialog|精英|FontDialog 1.3|计划中
 |SilkQmlMessageDialog|精英|MessageDialog 1.3|计划中
-|SilkQmlIPAddress|精英||计划中
 |SilkQmlMenu|精英|Menu 2.x|计划中
 |SilkQmlMenuBar|精英|MenuBar 2.x|计划中
 |SilkQmlStatusBar|精英|StatusBar 1.4|计划中
@@ -136,7 +136,21 @@ myapp.exe                     //自己的程序
 |SilkQmlTreeView|精英|TreeView 1.4|计划中
 |SilkQmlCalendar|精英|Calendar 1.4|计划中
 | | | |
+|SilkQmlHanzi2Pinyin(汉字转拼音)|卓越||计划中
+|SilkQmlYUVPlayer(YUV码流显示)|卓越||计划中
+|SilkQmlComponentManager(Quick组件管理)|卓越||计划中
 |SilkQmlDrawingBoard(画板)|卓越||计划中
+|SilkQmlHttpDownload(Http文件下载)|卓越||计划中
+|SilkQmlDragDrop(对象拖放)|卓越||计划中
+|SilkQmlGenerateQRCode(创建二维码图片)|卓越||计划中
+|SilkQmlScanQRCode(扫描二维码图片)|卓越||计划中
+|SilkQmlKeyboard(虚拟键盘)|卓越||计划中
+|SilkQmlMoveComponent(动态移动对象)|卓越||计划中
+|SilkQmlPopMsg(弹出消息)|卓越||计划中
+|SilkQmlTimeLine(时间刻度条)|卓越||计划中
+|SilkQmlWeather(天气预报)|卓越||计划中
+|SilkQmlNavigationProgress(导航进度)|卓越||计划中
+|SilkQmlCaptcha(验证码)|卓越||计划中
 |SilkQmlAudioPlayer(音频播放器)|卓越||计划中
 |SilkQmlVideoPlayer(视频播放器)|卓越||计划中
 |SilkQmlFontTools(字体工具)|卓越||计划中
