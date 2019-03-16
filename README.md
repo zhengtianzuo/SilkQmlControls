@@ -156,6 +156,8 @@ myapp.exe                     //自己的程序
 |SilkQmlFontTools|卓越|字体工具|计划中
 |SilkQmlScreenShot|卓越|截屏工具|计划中
 |SilkQmlPictureView|卓越|图片预览工具|计划中
+|SilkQmlWidget|卓越|嵌入QWidget|计划中
+|SilkQmlActiveX|卓越|嵌入ActiveX组件|计划中
 |更多...|卓越||计划中
 | | | |
 |更多...|传说||计划中
