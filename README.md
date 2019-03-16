@@ -99,73 +99,73 @@ myapp.exe                     //自己的程序
 |神话|import SilkQmlControlsMythical|具有连接云端功能, 支持数据上传, 支持远程控制
 
 #### 8. 目前开发进度
-|组件名|等级|对应原生组件|进度
-|---|---|---|---
-|SilkQmlItem|普通|Item 2.x|完成
-|SilkQmlText|普通|Text 2.x|完成
-|SilkQmlRectangle|普通|Rectangle 2.x|完成
-|SilkQmlImage|普通|Image 2.x|完成
-|SilkQmlButton|普通|Button 2.x|完成
-|SilkQmlCheckBox|普通|CheckBox 2.x|完成
-|SilkQmlRadioButton|普通|RadioButton 2.x|完成
-|SilkQmlSpinBox|普通|SpinBox 2.x|完成
-|SilkQmlSlider|普通|Slider 2.x|完成
-|SilkQmlSwitch|普通|Switch 2.x|完成
-|SilkQmlProgressBar|普通|ProgressBar 2.x|完成
-|SilkQmlDelayButton|普通|DelayButton 2.x|完成
-|SilkQmlToolButton|普通|ToolButton 2.x|完成
-|SilkQmlToolBar|普通|ToolBar 2.x|完成
-|SilkQmlComboBox|普通|ComboBox 2.x|完成
-|SilkQmlScrollBar|普通|ScrollBar 2.x|完成
-|SilkQmlBusyIndicator|普通|BusyIndicator 2.x|完成
-|SilkQmlDial|普通|Dial 2.x|完成
-|SilkQmlIPAddress|普通|TextInput 2.x|完成
-| | | |
-|SilkQmlToolTip|精英|ToolTip 2.x|进行中
-|SilkQmlDialog|精英|Dialog 2.x|进行中
-|SilkQmlColorDialog|精英|ColorDialog 1.3|计划中
-|SilkQmlFileDialog|精英|FileDialog 1.3|计划中
-|SilkQmlFontDialog|精英|FontDialog 1.3|计划中
-|SilkQmlMessageDialog|精英|MessageDialog 1.3|计划中
-|SilkQmlMenu|精英|Menu 2.x|计划中
-|SilkQmlMenuBar|精英|MenuBar 2.x|计划中
-|SilkQmlStatusBar|精英|StatusBar 1.4|计划中
-|SilkQmlListView|精英|ListView 2.x|计划中
-|SilkQmlTabView|精英|TabView 1.4|计划中
-|SilkQmlTableView|精英|TableView 1.4|计划中
-|SilkQmlTreeView|精英|TreeView 1.4|计划中
-|SilkQmlCalendar|精英|Calendar 1.4|计划中
-| | | |
-|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|计划中
-|SilkQmlYUVPlayer|卓越|YUV码流显示|计划中
-|SilkQmlComponentManager|卓越|Quick组件管理|计划中
-|SilkQmlDrawingBoard|卓越|画板|计划中
-|SilkQmlHttpDownload|卓越|Http文件下载|计划中
-|SilkQmlDragDrop|卓越|对象拖放|计划中
-|SilkQmlGenerateQRCode|卓越|创建二维码图片|计划中
-|SilkQmlScanQRCode|卓越|扫描二维码图片|计划中
-|SilkQmlKeyboard|卓越|虚拟键盘|计划中
-|SilkQmlMoveComponent|卓越|动态移动对象|计划中
-|SilkQmlPopMsg|卓越|弹出消息|计划中
-|SilkQmlTimeLine|卓越|时间刻度条|计划中
-|SilkQmlWeather|卓越|天气预报|计划中
-|SilkQmlNavigationProgress|卓越|导航进度|计划中
-|SilkQmlCaptcha|卓越|验证码|计划中
-|SilkQmlAudioPlayer|卓越|音频播放器|计划中
-|SilkQmlVideoPlayer|卓越|视频播放器|计划中
-|SilkQmlFontTools|卓越|字体工具|计划中
-|SilkQmlScreenShot|卓越|截屏工具|计划中
-|SilkQmlPictureView|卓越|图片预览工具|计划中
-|SilkQmlWidget|卓越|嵌入QWidget|计划中
-|SilkQmlActiveX|卓越|嵌入ActiveX组件|计划中
-|更多...|卓越||计划中
-| | | |
-|更多...|传说||计划中
-| | | |
-|更多...|史诗||计划中
-| | | |
-|更多...|神话||计划中
-| | | |
+|组件名|等级|对应原生组件|价格|进度
+|---|---|---|---|---
+|SilkQmlItem|普通|Item 2.x|永久免费|完成
+|SilkQmlText|普通|Text 2.x|永久免费|完成
+|SilkQmlRectangle|普通|Rectangle 2.x|永久免费|完成
+|SilkQmlImage|普通|Image 2.x|永久免费|完成
+|SilkQmlButton|普通|Button 2.x|永久免费|完成
+|SilkQmlCheckBox|普通|CheckBox 2.x|永久免费|完成
+|SilkQmlRadioButton|普通|RadioButton 2.x|永久免费|完成
+|SilkQmlSpinBox|普通|SpinBox 2.x|永久免费|完成
+|SilkQmlSlider|普通|Slider 2.x|永久免费|完成
+|SilkQmlSwitch|普通|Switch 2.x|永久免费|完成
+|SilkQmlProgressBar|普通|ProgressBar 2.x|永久免费|完成
+|SilkQmlDelayButton|普通|DelayButton 2.x|永久免费|完成
+|SilkQmlToolButton|普通|ToolButton 2.x|永久免费|完成
+|SilkQmlToolBar|普通|ToolBar 2.x|永久免费|完成
+|SilkQmlComboBox|普通|ComboBox 2.x|永久免费|完成
+|SilkQmlScrollBar|普通|ScrollBar 2.x|永久免费|完成
+|SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|完成
+|SilkQmlDial|普通|Dial 2.x|永久免费|完成
+|SilkQmlIPAddress|普通|TextInput 2.x|永久免费|完成
+| | | | |
+|SilkQmlToolTip|精英|ToolTip 2.x|永久免费|进行中
+|SilkQmlDialog|精英|Dialog 2.x|永久免费|进行中
+|SilkQmlColorDialog|精英|ColorDialog 1.3|永久免费|计划中
+|SilkQmlFileDialog|精英|FileDialog 1.3|永久免费|计划中
+|SilkQmlFontDialog|精英|FontDialog 1.3|永久免费|计划中
+|SilkQmlMessageDialog|精英|MessageDialog 1.3|永久免费|计划中
+|SilkQmlMenu|精英|Menu 2.x|永久免费|计划中
+|SilkQmlMenuBar|精英|MenuBar 2.x|永久免费|计划中
+|SilkQmlStatusBar|精英|StatusBar 1.4|永久免费|计划中
+|SilkQmlListView|精英|ListView 2.x|永久免费|计划中
+|SilkQmlTabView|精英|TabView 1.4|永久免费|计划中
+|SilkQmlTableView|精英|TableView 1.4|永久免费|计划中
+|SilkQmlTreeView|精英|TreeView 1.4|永久免费|计划中
+|SilkQmlCalendar|精英|Calendar 1.4|永久免费|计划中
+| | | | |
+|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|待定|计划中
+|SilkQmlYUVPlayer|卓越|YUV码流显示|待定|计划中
+|SilkQmlComponentManager|卓越|Quick组件管理|待定|计划中
+|SilkQmlDrawingBoard|卓越|画板|待定|计划中
+|SilkQmlHttpDownload|卓越|Http文件下载|待定|计划中
+|SilkQmlDragDrop|卓越|对象拖放|待定|计划中
+|SilkQmlGenerateQRCode|卓越|创建二维码图片|待定|计划中
+|SilkQmlScanQRCode|卓越|扫描二维码图片|待定|计划中
+|SilkQmlKeyboard|卓越|虚拟键盘|待定|计划中
+|SilkQmlMoveComponent|卓越|动态移动对象|待定|计划中
+|SilkQmlPopMsg|卓越|弹出消息|待定|计划中
+|SilkQmlTimeLine|卓越|时间刻度条|待定|计划中
+|SilkQmlWeather|卓越|天气预报|待定|计划中
+|SilkQmlNavigationProgress|卓越|导航进度|待定|计划中
+|SilkQmlCaptcha|卓越|验证码|待定|计划中
+|SilkQmlAudioPlayer|卓越|音频播放器|待定|计划中
+|SilkQmlVideoPlayer|卓越|视频播放器|待定|计划中
+|SilkQmlFontTools|卓越|字体工具|待定|计划中
+|SilkQmlScreenShot|卓越|截屏工具|待定|计划中
+|SilkQmlPictureView|卓越|图片预览工具|待定|计划中
+|SilkQmlWidget|卓越|嵌入QWidget|待定|计划中
+|SilkQmlActiveX|卓越|嵌入ActiveX组件|待定|计划中
+|更多...|卓越|||计划中
+| | | | |
+|更多...|传说|||计划中
+| | | | |
+|更多...|史诗|||计划中
+| | | | |
+|更多...|神话|||计划中
+| | | | |
 
 
 #### 联系方式:
