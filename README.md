@@ -122,18 +122,12 @@ myapp.exe                     //自己的程序
 |SilkQmlIPAddress|普通|TextInput 2.x|永久免费|完成
 | | | | |
 |SilkQmlToolTip|精英|ToolTip 2.x|永久免费|进行中
+|SilkQmlNotification|精英|ToolTip 2.x|永久免费|进行中
 |SilkQmlDialog|精英|Dialog 2.x|永久免费|进行中
 |SilkQmlColorDialog|精英|ColorDialog 1.3|永久免费|计划中
 |SilkQmlFileDialog|精英|FileDialog 1.3|永久免费|计划中
 |SilkQmlFontDialog|精英|FontDialog 1.3|永久免费|计划中
 |SilkQmlMessageDialog|精英|MessageDialog 1.3|永久免费|计划中
-|SilkQmlMenu|精英|Menu 2.x|永久免费|计划中
-|SilkQmlMenuBar|精英|MenuBar 2.x|永久免费|计划中
-|SilkQmlStatusBar|精英|StatusBar 1.4|永久免费|计划中
-|SilkQmlListView|精英|ListView 2.x|永久免费|计划中
-|SilkQmlTabView|精英|TabView 1.4|永久免费|计划中
-|SilkQmlTableView|精英|TableView 1.4|永久免费|计划中
-|SilkQmlTreeView|精英|TreeView 1.4|永久免费|计划中
 |SilkQmlCalendar|精英|Calendar 1.4|永久免费|计划中
 | | | | |
 |SilkQmlHanzi2Pinyin|卓越|汉字转拼音|待定|计划中
@@ -158,13 +152,22 @@ myapp.exe                     //自己的程序
 |SilkQmlPictureView|卓越|图片预览工具|待定|计划中
 |SilkQmlWidget|卓越|嵌入QWidget|待定|计划中
 |SilkQmlActiveX|卓越|嵌入ActiveX组件|待定|计划中
+|SilkQmlUpdate|卓越|在线自动升级|待定|计划中
+|SilkQmlImageCache|卓越|图形高速缓存|待定|计划中
+|SilkQmlPasswordSave|卓越|密码保存|待定|计划中
 |更多...|卓越|||计划中
 | | | | |
 |更多...|传说|||计划中
 | | | | |
 |更多...|史诗|||计划中
+|SilkQmlCloud|史诗|云端存储数据|待定|计划中
 | | | | |
 |更多...|神话|||计划中
+|SilkQmlP2PMessage|神话|P2P消息|待定|计划中
+|SilkQmlRemoteViewer|神话|远程显示/控制|待定|计划中
+|SilkQmlLiveAudio|神话|实时音频|待定|计划中
+|SilkQmlLiveVideo|神话|实时视频|待定|计划中
+|SilkQmlLiveMeeting|神话|实时会议|待定|计划中
 | | | | |
 
 
