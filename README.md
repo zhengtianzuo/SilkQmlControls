@@ -86,7 +86,10 @@ myapp.exe                     //自己的程序
   * 更多功能策划中...
 
 #### 6. 效果预览图:
-
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsTest/doc/main.jpg?raw=true)
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsTest/doc/showsvg.gif?raw=true)
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsTest/doc/showpic.gif?raw=true)
+![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsTest/doc/controls.jpg?raw=true)
 
 #### 7. 控件等级
 |等级|导入|描述|
