@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qmls/main.qml</file>
+        <file>qmls/TestRectangle.qml</file>
+        <file>qmls/TestSlider.qml</file>
+        <file>qmls/QtQuickControls.qml</file>
+        <file>qmls/SilkQmlControls.qml</file>
+        <file>qmls/TestParameter.qml</file>
+        <file>qmls/TestCheckBox.qml</file>
+        <file>qmls/TestRadioButton.qml</file>
+        <file>images/SilkStyle_Back.png</file>
+        <file>qmls/PageTest.qml</file>
+        <file>qmls/TestTabBar.qml</file>
+        <file>images/Controls.svg</file>
+        <file>images/Skin.svg</file>
+        <file>qmls/PageShow.qml</file>
+        <file>images/ControlsG.svg</file>
+        <file>images/SkinG.svg</file>
+        <file>camel3.ico</file>
+        <file>images/PIC.svg</file>
+        <file>images/PICG.svg</file>
+        <file>images/SVG.svg</file>
+        <file>images/SVGG.svg</file>
+        <file>qmls/PagePIC.qml</file>
+        <file>qmls/PageSVG.qml</file>
+        <file>images/Logo.jpg</file>
+    </qresource>
+</RCC>

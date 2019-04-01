@@ -6,7 +6,7 @@
 
 中文名: 三峰驼
 QtQuick方式的界面开发扩展库  **非开源**
-这个项目的初衷在于, 提供一套完整的QtQuick界面库, 自带皮肤动态切换功能, 换肤换色, 一行代码完成. 提供配套的皮肤文件编辑器, 大大缩短开发时间. 另外不断开发扩展组件, 丰富功能. 弥补QtQuick2.0下很多缺失的组件功能, 如TableView.
+这个项目的初衷在于, 提供一套完整的QtQuick界面库, 自带皮肤动态切换功能, 换肤换色, 一行代码完成. 提供配套的皮肤文件编辑器, 大大缩短开发时间. 另外不断开发扩展组件, 丰富功能.
 
 ![](https://img.shields.io/badge/%E7%89%88%E6%9D%83%E8%AE%B8%E5%8F%AF-MIT-orange.svg)
 ![](https://img.shields.io/badge/Qt-5.10-blue.svg)
@@ -23,13 +23,12 @@ QtQuick方式的界面开发扩展库  **非开源**
 * 支持单峰驼数据库IDE直接修改皮肤文件
 * 除了基础组件, 会不断更新出各种高级扩展控件, 自由选择
 * 可完全使用皮肤文件, 工程不需要配额外的图形打包到qrc中
-* 提供自定义功能, 比如checkbox的图标显示大小, 颜色, 位置
-* 提供全套组件, 包括QtQuick.Controls 2.0缺少的很多组件, 如TableView
+* 提供全套组件, 自定义功能, 比如checkbox的图标显示大小, 颜色, 位置
 * 后续会出专有的皮肤文件编辑器
 
 #### 1. 使用方法:
-  * 集成:
-	拷贝SilkQmlControls文件夹到Qt安装路径\kit\qml下
+  * 集成(插件的语法支持):
+	拷贝doc\SilkQmlControls文件夹到Qt安装路径\kit\qml下
 	如: C:\Qt\Qt5.12.0\5.12.0\msvc2017\qml, 重新打开QtCreator即可开始使用
 
   * 导入界面库使用
@@ -45,6 +44,7 @@ QtQuick方式的界面开发扩展库  **非开源**
 	改造工程的话 可以直接在原生组件名前加SilkQml, Text->SilkQmlText
 
 #### 2. 部署方法:
+  各个版本的三峰驼运行库在dll目录下, 示例工程默认使用Qt 5.12.0 msvc2017 32位版本
 	拷贝SilkQmlControls文件夹到程序生成根目录即可
 ```
 SilkQmlControls               //SilkQml界面库目录
