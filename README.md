@@ -13,8 +13,6 @@ QtQuick方式的界面开发扩展库  **非开源**
 ![](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.0.0.0-blue.svg)
 ![](https://img.shields.io/badge/%E7%BC%96%E8%AF%91-%E6%88%90%E5%8A%9F-brightgreen.svg)
 
-目前正在准备上线中 敬请期待~~
-
 特点：
 * 皮肤动态切换, 动态加载解析皮肤文件
 * 直接集成到QtCreator中, 开发便利, 使用简单, 与原生Qml组件一样的直接使用
