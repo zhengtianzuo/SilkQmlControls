@@ -122,40 +122,40 @@ myapp.exe                     //自己的程序
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成
 |SilkQmlIPAddress|普通|TextInput 2.x|永久免费|--|完成
 | | | | | |
-|SilkQmlToolTip|精英|ToolTip 2.x|永久免费|100 ¥|进行中
-|SilkQmlNotification|精英|ToolTip 2.x|永久免费|200 ¥|进行中
-|SilkQmlDialog|精英|Dialog 2.x|永久免费|500 ¥|进行中
-|SilkQmlColorDialog|精英|ColorDialog 1.3|永久免费|200 ¥|计划中
-|SilkQmlFileDialog|精英|FileDialog 1.3|永久免费|200 ¥|计划中
-|SilkQmlFontDialog|精英|FontDialog 1.3|永久免费|200 ¥|计划中
-|SilkQmlMessageDialog|精英|MessageDialog 1.3|永久免费|200 ¥|计划中
-|SilkQmlCalendar|精英|Calendar 1.4|永久免费|200 ¥|计划中
+|SilkQmlToolTip|精英|ToolTip 2.x|永久免费|50 ¥|进行中
+|SilkQmlNotification|精英|ToolTip 2.x|永久免费|100 ¥|进行中
+|SilkQmlDialog|精英|Dialog 2.x|永久免费|200 ¥|进行中
+|SilkQmlColorDialog|精英|ColorDialog 1.3|永久免费|100 ¥|计划中
+|SilkQmlFileDialog|精英|FileDialog 1.3|永久免费|100 ¥|计划中
+|SilkQmlFontDialog|精英|FontDialog 1.3|永久免费|100 ¥|计划中
+|SilkQmlMessageDialog|精英|MessageDialog 1.3|永久免费|100 ¥|计划中
+|SilkQmlCalendar|精英|Calendar 1.4|永久免费|100 ¥|计划中
 | | | | | |
-|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|200 ¥|计划中
-|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|300 ¥|计划中
-|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|500 ¥|计划中
-|SilkQmlDrawingBoard|卓越|画板|永久免费|1000 ¥|计划中
-|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|300 ¥|计划中
-|SilkQmlDragDrop|卓越|对象拖放|永久免费|500 ¥|计划中
-|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|300 ¥|计划中
-|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|500 ¥|计划中
-|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|300 ¥|计划中
-|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|300 ¥|计划中
-|SilkQmlPopMsg|卓越|弹出消息|永久免费|200 ¥|计划中
-|SilkQmlTimeLine|卓越|时间刻度条|永久免费|300 ¥|计划中
-|SilkQmlWeather|卓越|天气预报|永久免费|300 ¥|计划中
-|SilkQmlNavigationProgress|卓越|导航进度|永久免费|300 ¥|计划中
-|SilkQmlCaptcha|卓越|验证码|永久免费|300 ¥|计划中
-|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|1000 ¥|计划中
-|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|1000 ¥|计划中
-|SilkQmlFontTools|卓越|字体工具|永久免费|300 ¥|计划中
-|SilkQmlScreenShot|卓越|截屏工具|永久免费|1000 ¥|计划中
-|SilkQmlPictureView|卓越|图片预览工具|永久免费|800 ¥|计划中
-|SilkQmlWidget|卓越|嵌入QWidget|永久免费|500 ¥|计划中
-|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|800 ¥|计划中
-|SilkQmlUpdate|卓越|在线自动升级|永久免费|1000 ¥|计划中
-|SilkQmlImageCache|卓越|图形高速缓存|永久免费|1000 ¥|计划中
-|SilkQmlPasswordSave|卓越|密码保存|永久免费|800 ¥|计划中
+|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|100 ¥|计划中
+|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|200 ¥|计划中
+|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|300 ¥|计划中
+|SilkQmlDrawingBoard|卓越|画板|永久免费|500 ¥|计划中
+|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|100 ¥|计划中
+|SilkQmlDragDrop|卓越|对象拖放|永久免费|300 ¥|计划中
+|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|100 ¥|计划中
+|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|100 ¥|计划中
+|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|200 ¥|计划中
+|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|200 ¥|计划中
+|SilkQmlPopMsg|卓越|弹出消息|永久免费|100 ¥|计划中
+|SilkQmlTimeLine|卓越|时间刻度条|永久免费|100 ¥|计划中
+|SilkQmlWeather|卓越|天气预报|永久免费|100 ¥|计划中
+|SilkQmlNavigationProgress|卓越|导航进度|永久免费|100 ¥|计划中
+|SilkQmlCaptcha|卓越|验证码|永久免费|100 ¥|计划中
+|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|500 ¥|计划中
+|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|500 ¥|计划中
+|SilkQmlFontTools|卓越|字体工具|永久免费|200 ¥|计划中
+|SilkQmlScreenShot|卓越|截屏工具|永久免费|500 ¥|计划中
+|SilkQmlPictureView|卓越|图片预览工具|永久免费|300 ¥|计划中
+|SilkQmlWidget|卓越|嵌入QWidget|永久免费|200 ¥|计划中
+|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|500 ¥|计划中
+|SilkQmlUpdate|卓越|在线自动升级|永久免费|500 ¥|计划中
+|SilkQmlImageCache|卓越|图形高速缓存|永久免费|500 ¥|计划中
+|SilkQmlPasswordSave|卓越|密码保存|永久免费|300 ¥|计划中
 |更多...|卓越||||计划中
 | | | | | |
 |更多...|传说||||计划中
