@@ -120,9 +120,9 @@ myapp.exe                     //自己的程序
 |SilkQmlScrollBar|普通|ScrollBar 2.x|永久免费|--|完成
 |SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|--|完成
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成
-|SilkQmlIPAddress|普通|TextInput 2.x|永久免费|--|完成
 | | | | | |
 |SilkQmlToolTip|精英|--|永久免费|100 ¥|完成
+|SilkQmlIPAddress|精英|--|永久免费|100 ¥|完成
 |SilkQmlNotification|精英|--|永久免费|100 ¥|进行中
 |SilkQmlDialog|精英|--|永久免费|200 ¥|进行中
 |SilkQmlColorDialog|精英|--|永久免费|100 ¥|计划中
