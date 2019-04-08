@@ -122,14 +122,14 @@ myapp.exe                     //自己的程序
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成
 |SilkQmlIPAddress|普通|TextInput 2.x|永久免费|--|完成
 | | | | | |
-|SilkQmlToolTip|精英|ToolTip 2.x|永久免费|50 ¥|进行中
-|SilkQmlNotification|精英|ToolTip 2.x|永久免费|100 ¥|进行中
-|SilkQmlDialog|精英|Dialog 2.x|永久免费|200 ¥|进行中
-|SilkQmlColorDialog|精英|ColorDialog 1.3|永久免费|100 ¥|计划中
-|SilkQmlFileDialog|精英|FileDialog 1.3|永久免费|100 ¥|计划中
-|SilkQmlFontDialog|精英|FontDialog 1.3|永久免费|100 ¥|计划中
-|SilkQmlMessageDialog|精英|MessageDialog 1.3|永久免费|100 ¥|计划中
-|SilkQmlCalendar|精英|Calendar 1.4|永久免费|100 ¥|计划中
+|SilkQmlToolTip|精英|--|永久免费|100 ¥|完成
+|SilkQmlNotification|精英|--|永久免费|100 ¥|进行中
+|SilkQmlDialog|精英|--|永久免费|200 ¥|进行中
+|SilkQmlColorDialog|精英|--|永久免费|100 ¥|计划中
+|SilkQmlFileDialog|精英|--|永久免费|100 ¥|计划中
+|SilkQmlFontDialog|精英|--|永久免费|100 ¥|计划中
+|SilkQmlMessageDialog|精英|--|永久免费|100 ¥|计划中
+|SilkQmlCalendar|精英|--|永久免费|100 ¥|计划中
 | | | | | |
 |SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|100 ¥|计划中
 |SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|200 ¥|计划中
