@@ -122,15 +122,15 @@ myapp.exe                     //自己的程序
 |SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|--|完成|
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成|
 | | | | | | |
-|SilkQmlToolTip|精英|--|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
-|SilkQmlIPAddress|精英|--|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
-|SilkQmlNotification|精英|--|永久免费|待定|进行中|
-|SilkQmlDialog|精英|--|永久免费|待定|进行中|
-|SilkQmlColorDialog|精英|--|永久免费|待定|计划中
-|SilkQmlFileDialog|精英|--|永久免费|待定|计划中|
-|SilkQmlFontDialog|精英|--|永久免费|待定|计划中|
-|SilkQmlMessageDialog|精英|--|永久免费|待定|计划中|
-|SilkQmlCalendar|精英|--|永久免费|待定|计划中|
+|SilkQmlToolTip|精英|提示信息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
+|SilkQmlIPAddress|精英|IP输入框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
+|SilkQmlNotification|精英|通知消息|永久免费|待定|进行中|
+|SilkQmlDialog|精英|自定义对话框|永久免费|待定|进行中|
+|SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|计划中
+|SilkQmlFileDialog|精英|文件选择对话框|永久免费|待定|计划中|
+|SilkQmlFontDialog|精英|字体选择对话框|永久免费|待定|计划中|
+|SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|计划中|
+|SilkQmlCalendar|精英|自定义日历|永久免费|待定|计划中|
 | | | | | |
 |SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|待定|计划中|
 |SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|待定|计划中|
