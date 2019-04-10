@@ -123,7 +123,7 @@ myapp.exe                     //自己的程序
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成|
 | | | | | | |
 |SilkQmlToolTip|精英|--|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
-|SilkQmlIPAddress|精英|--|永久免费|待定|完成|
+|SilkQmlIPAddress|精英|--|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
 |SilkQmlNotification|精英|--|永久免费|待定|进行中|
 |SilkQmlDialog|精英|--|永久免费|待定|进行中|
 |SilkQmlColorDialog|精英|--|永久免费|待定|计划中
