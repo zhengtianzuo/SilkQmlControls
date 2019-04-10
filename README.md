@@ -5,6 +5,7 @@
 ![](https://github.com/zhengtianzuo/SilkQmlControls/blob/master/SilkQmlControlsPage.jpg?raw=true)
 
 中文名: 三峰驼
+
 QtQuick方式的界面开发扩展库  **非开源**
 这个项目的初衷在于, 提供一套完整的QtQuick界面库, 自带皮肤动态切换功能, 换肤换色, 一行代码完成. 提供配套的皮肤文件编辑器, 大大缩短开发时间. 另外不断开发扩展组件, 丰富功能.
 
@@ -100,76 +101,76 @@ myapp.exe                     //自己的程序
 |神话|import SilkQmlControlsMythical|具有连接云端功能, 支持数据上传, 支持远程控制
 
 #### 8. 目前开发进度
-|组件名|等级|对应原生组件|使用价格|源码价格|进度
-|---|---|---|---|---|---
-|SilkQmlItem|普通|Item 2.x|永久免费|--|完成
-|SilkQmlText|普通|Text 2.x|永久免费|--|完成
-|SilkQmlRectangle|普通|Rectangle 2.x|永久免费|--|完成
-|SilkQmlImage|普通|Image 2.x|永久免费|--|完成
-|SilkQmlButton|普通|Button 2.x|永久免费|--|完成
-|SilkQmlCheckBox|普通|CheckBox 2.x|永久免费|--|完成
-|SilkQmlRadioButton|普通|RadioButton 2.x|永久免费|--|完成
-|SilkQmlSpinBox|普通|SpinBox 2.x|永久免费|--|完成
-|SilkQmlSlider|普通|Slider 2.x|永久免费|--|完成
-|SilkQmlSwitch|普通|Switch 2.x|永久免费|--|完成
-|SilkQmlProgressBar|普通|ProgressBar 2.x|永久免费|--|完成
-|SilkQmlDelayButton|普通|DelayButton 2.x|永久免费|--|完成
-|SilkQmlToolButton|普通|ToolButton 2.x|永久免费|--|完成
-|SilkQmlToolBar|普通|ToolBar 2.x|永久免费|--|完成
-|SilkQmlComboBox|普通|ComboBox 2.x|永久免费|--|完成
-|SilkQmlScrollBar|普通|ScrollBar 2.x|永久免费|--|完成
-|SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|--|完成
-|SilkQmlDial|普通|Dial 2.x|永久免费|--|完成
-| | | | | |
-|SilkQmlToolTip|精英|--|永久免费|100 ¥|完成
-|SilkQmlIPAddress|精英|--|永久免费|100 ¥|完成
-|SilkQmlNotification|精英|--|永久免费|100 ¥|进行中
-|SilkQmlDialog|精英|--|永久免费|200 ¥|进行中
+|组件名|等级|对应原生组件|使用价格|源码价格|进度|博客
+|---|---|---|---|---|---|---
+|SilkQmlItem|普通|Item 2.x|永久免费|--|完成|
+|SilkQmlText|普通|Text 2.x|永久免费|--|完成|
+|SilkQmlRectangle|普通|Rectangle 2.x|永久免费|--|完成|
+|SilkQmlImage|普通|Image 2.x|永久免费|--|完成|
+|SilkQmlButton|普通|Button 2.x|永久免费|--|完成|
+|SilkQmlCheckBox|普通|CheckBox 2.x|永久免费|--|完成|
+|SilkQmlRadioButton|普通|RadioButton 2.x|永久免费|--|完成|
+|SilkQmlSpinBox|普通|SpinBox 2.x|永久免费|--|完成|
+|SilkQmlSlider|普通|Slider 2.x|永久免费|--|完成|
+|SilkQmlSwitch|普通|Switch 2.x|永久免费|--|完成|
+|SilkQmlProgressBar|普通|ProgressBar 2.x|永久免费|--|完成|
+|SilkQmlDelayButton|普通|DelayButton 2.x|永久免费|--|完成|
+|SilkQmlToolButton|普通|ToolButton 2.x|永久免费|--|完成|
+|SilkQmlToolBar|普通|ToolBar 2.x|永久免费|--|完成|
+|SilkQmlComboBox|普通|ComboBox 2.x|永久免费|--|完成|
+|SilkQmlScrollBar|普通|ScrollBar 2.x|永久免费|--|完成|
+|SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|--|完成|
+|SilkQmlDial|普通|Dial 2.x|永久免费|--|完成|
+| | | | | | |
+|SilkQmlToolTip|精英|--|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
+|SilkQmlIPAddress|精英|--|永久免费|100 ¥|完成|
+|SilkQmlNotification|精英|--|永久免费|100 ¥|进行中|
+|SilkQmlDialog|精英|--|永久免费|200 ¥|进行中|
 |SilkQmlColorDialog|精英|--|永久免费|100 ¥|计划中
-|SilkQmlFileDialog|精英|--|永久免费|100 ¥|计划中
-|SilkQmlFontDialog|精英|--|永久免费|100 ¥|计划中
-|SilkQmlMessageDialog|精英|--|永久免费|100 ¥|计划中
-|SilkQmlCalendar|精英|--|永久免费|100 ¥|计划中
+|SilkQmlFileDialog|精英|--|永久免费|100 ¥|计划中|
+|SilkQmlFontDialog|精英|--|永久免费|100 ¥|计划中|
+|SilkQmlMessageDialog|精英|--|永久免费|100 ¥|计划中|
+|SilkQmlCalendar|精英|--|永久免费|100 ¥|计划中|
 | | | | | |
-|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|100 ¥|计划中
-|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|200 ¥|计划中
-|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|300 ¥|计划中
-|SilkQmlDrawingBoard|卓越|画板|永久免费|500 ¥|计划中
-|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|100 ¥|计划中
-|SilkQmlDragDrop|卓越|对象拖放|永久免费|300 ¥|计划中
-|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|100 ¥|计划中
-|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|100 ¥|计划中
-|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|200 ¥|计划中
-|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|200 ¥|计划中
-|SilkQmlPopMsg|卓越|弹出消息|永久免费|100 ¥|计划中
-|SilkQmlTimeLine|卓越|时间刻度条|永久免费|100 ¥|计划中
-|SilkQmlWeather|卓越|天气预报|永久免费|100 ¥|计划中
-|SilkQmlNavigationProgress|卓越|导航进度|永久免费|100 ¥|计划中
-|SilkQmlCaptcha|卓越|验证码|永久免费|100 ¥|计划中
-|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|500 ¥|计划中
-|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|500 ¥|计划中
-|SilkQmlFontTools|卓越|字体工具|永久免费|200 ¥|计划中
-|SilkQmlScreenShot|卓越|截屏工具|永久免费|500 ¥|计划中
-|SilkQmlPictureView|卓越|图片预览工具|永久免费|300 ¥|计划中
-|SilkQmlWidget|卓越|嵌入QWidget|永久免费|200 ¥|计划中
-|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|500 ¥|计划中
-|SilkQmlUpdate|卓越|在线自动升级|永久免费|500 ¥|计划中
-|SilkQmlImageCache|卓越|图形高速缓存|永久免费|500 ¥|计划中
-|SilkQmlPasswordSave|卓越|密码保存|永久免费|300 ¥|计划中
-|更多...|卓越||||计划中
-| | | | | |
-|更多...|传说||||计划中
-| | | | | |
-|更多...|史诗||||计划中
-|SilkQmlCloud|史诗|云端存储数据|5 ¥/月|非卖品|计划中
-| | | | | |
-|更多...|神话||||计划中
-|SilkQmlP2PMessage|神话|P2P消息|5 ¥/月|非卖品|计划中
-|SilkQmlRemoteViewer|神话|远程显示/控制|5 ¥/月|非卖品|计划中
-|SilkQmlLiveAudio|神话|实时音频|5 ¥/月|非卖品|计划中
-|SilkQmlLiveVideo|神话|实时视频|5 ¥/月|非卖品|计划中
-|SilkQmlLiveMeeting|神话|实时会议|10 ¥/月|非卖品|计划中
-| | | | | |
+|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|100 ¥|计划中|
+|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|200 ¥|计划中|
+|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|300 ¥|计划中|
+|SilkQmlDrawingBoard|卓越|画板|永久免费|500 ¥|计划中|
+|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|100 ¥|计划中|
+|SilkQmlDragDrop|卓越|对象拖放|永久免费|300 ¥|计划中|
+|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|100 ¥|计划中|
+|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|100 ¥|计划中|
+|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|200 ¥|计划中|
+|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|200 ¥|计划中|
+|SilkQmlPopMsg|卓越|弹出消息|永久免费|100 ¥|计划中|
+|SilkQmlTimeLine|卓越|时间刻度条|永久免费|100 ¥|计划中|
+|SilkQmlWeather|卓越|天气预报|永久免费|100 ¥|计划中|
+|SilkQmlNavigationProgress|卓越|导航进度|永久免费|100 ¥|计划中|
+|SilkQmlCaptcha|卓越|验证码|永久免费|100 ¥|计划中|
+|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|500 ¥|计划中|
+|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|500 ¥|计划中|
+|SilkQmlFontTools|卓越|字体工具|永久免费|200 ¥|计划中|
+|SilkQmlScreenShot|卓越|截屏工具|永久免费|500 ¥|计划中|
+|SilkQmlPictureView|卓越|图片预览工具|永久免费|300 ¥|计划中|
+|SilkQmlWidget|卓越|嵌入QWidget|永久免费|200 ¥|计划中|
+|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|500 ¥|计划中|
+|SilkQmlUpdate|卓越|在线自动升级|永久免费|500 ¥|计划中|
+|SilkQmlImageCache|卓越|图形高速缓存|永久免费|500 ¥|计划中|
+|SilkQmlPasswordSave|卓越|密码保存|永久免费|300 ¥|计划中|
+|更多...|卓越||||计划中|
+| | | | | | |
+|更多...|传说||||计划中|
+| | | | | | |
+|更多...|史诗||||计划中|
+|SilkQmlCloud|史诗|云端存储数据|5 ¥/月|非卖品|计划中|
+| | | | | | |
+|更多...|神话||||计划中|
+|SilkQmlP2PMessage|神话|P2P消息|5 ¥/月|非卖品|计划中|
+|SilkQmlRemoteViewer|神话|远程显示/控制|5 ¥/月|非卖品|计划中|
+|SilkQmlLiveAudio|神话|实时音频|5 ¥/月|非卖品|计划中|
+|SilkQmlLiveVideo|神话|实时视频|5 ¥/月|非卖品|计划中|
+|SilkQmlLiveMeeting|神话|实时会议|10 ¥/月|非卖品|计划中|
+| | | | | | |
 
 
 #### 联系方式:
