@@ -127,8 +127,6 @@ myapp.exe                     //自己的程序
 |SilkQmlNotification|精英|通知消息|永久免费|待定|待集成|
 |SilkQmlDialog|精英|自定义对话框|永久免费|待定|待重新设计|
 |SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|待集成|
-|SilkQmlFileDialog|精英|文件选择对话框|永久免费|待定|待重新设计|
-|SilkQmlFontDialog|精英|字体选择对话框|永久免费|待定|待重新设计|
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|待重新设计|
 |SilkQmlCalendar|精英|自定义日历|永久免费|待定|待集成|
 | | | | | |
