@@ -124,10 +124,10 @@ myapp.exe                     //自己的程序
 | | | | | | |
 |SilkQmlToolTip|精英|提示信息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
 |SilkQmlIPAddress|精英|IP输入框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
-|SilkQmlNotification|精英|通知消息|永久免费|待定|待集成|
 |SilkQmlDialog|精英|自定义对话框|永久免费|待定|待重新设计|
 |SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|待集成|
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|待重新设计|
+|SilkQmlNotification|精英|通知消息|永久免费|待定|待集成|
 |SilkQmlCalendar|精英|自定义日历|永久免费|待定|待集成|
 | | | | | |
 |SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|待定|待集成|
