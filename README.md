@@ -124,52 +124,51 @@ myapp.exe                     //自己的程序
 | | | | | | |
 |SilkQmlToolTip|精英|提示信息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
 |SilkQmlIPAddress|精英|IP输入框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
-|SilkQmlNotification|精英|通知消息|永久免费|待定|进行中|
-|SilkQmlDialog|精英|自定义对话框|永久免费|待定|进行中|
-|SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|计划中
-|SilkQmlFileDialog|精英|文件选择对话框|永久免费|待定|计划中|
-|SilkQmlFontDialog|精英|字体选择对话框|永久免费|待定|计划中|
-|SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|计划中|
-|SilkQmlCalendar|精英|自定义日历|永久免费|待定|计划中|
+|SilkQmlNotification|精英|通知消息|永久免费|待定|待集成|
+|SilkQmlDialog|精英|自定义对话框|永久免费|待定|待重新设计|
+|SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|待集成|
+|SilkQmlFileDialog|精英|文件选择对话框|永久免费|待定|待重新设计|
+|SilkQmlFontDialog|精英|字体选择对话框|永久免费|待定|待重新设计|
+|SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|待重新设计|
+|SilkQmlCalendar|精英|自定义日历|永久免费|待定|待集成|
 | | | | | |
-|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|待定|计划中|
-|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|待定|计划中|
-|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|待定|计划中|
-|SilkQmlDrawingBoard|卓越|画板|永久免费|待定|计划中|
-|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|待定|计划中|
-|SilkQmlDragDrop|卓越|对象拖放|永久免费|待定|计划中|
-|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|待定|计划中|
-|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|待定|计划中|
-|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|待定|计划中|
-|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|待定|计划中|
-|SilkQmlPopMsg|卓越|弹出消息|永久免费|待定|计划中|
-|SilkQmlTimeLine|卓越|时间刻度条|永久免费|待定|计划中|
-|SilkQmlWeather|卓越|天气预报|永久免费|待定|计划中|
-|SilkQmlNavigationProgress|卓越|导航进度|永久免费|待定|计划中|
-|SilkQmlCaptcha|卓越|验证码|永久免费|待定|计划中|
-|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|待定|计划中|
-|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|待定|计划中|
-|SilkQmlFontTools|卓越|字体工具|永久免费|待定|计划中|
-|SilkQmlScreenShot|卓越|截屏工具|永久免费|待定|计划中|
-|SilkQmlPictureView|卓越|图片预览工具|永久免费|待定|计划中|
-|SilkQmlWidget|卓越|嵌入QWidget|永久免费|待定|计划中|
-|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|待定|计划中|
-|SilkQmlUpdate|卓越|在线自动升级|永久免费|待定|计划中|
-|SilkQmlImageCache|卓越|图形高速缓存|永久免费|待定|计划中|
-|SilkQmlPasswordSave|卓越|密码保存|永久免费|待定|计划中|
-|更多...|卓越||||计划中|
+|SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|待定|待集成|
+|SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|待定|待重新设计|
+|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|待定|待集成|
+|SilkQmlDrawingBoard|卓越|画板|永久免费|待定|待集成|
+|SilkQmlHttpDownload|卓越|Http文件下载|永久免费|待定|待集成|
+|SilkQmlDragDrop|卓越|对象拖放|永久免费|待定|待集成|
+|SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|待定|待集成|
+|SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|待定|待集成|
+|SilkQmlKeyboard|卓越|虚拟键盘|永久免费|待定|待重新设计|
+|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|待定|待集成|
+|SilkQmlTimeLine|卓越|时间刻度条|永久免费|待定|待重新设计|
+|SilkQmlWeather|卓越|天气预报|永久免费|待定|待集成|
+|SilkQmlNavigationProgress|卓越|导航进度|永久免费|待定|待重新设计|
+|SilkQmlCaptcha|卓越|验证码|永久免费|待定|待重新设计|
+|SilkQmlAudioPlayer|卓越|音频播放器|永久免费|待定|待重新设计|
+|SilkQmlVideoPlayer|卓越|视频播放器|永久免费|待定|待重新设计|
+|SilkQmlFontTools|卓越|字体工具|永久免费|待定|待集成|
+|SilkQmlScreenShot|卓越|截屏工具|永久免费|待定|待集成|
+|SilkQmlPictureView|卓越|图片预览工具|永久免费|待定|待集成|
+|SilkQmlWidget|卓越|嵌入QWidget|永久免费|待定|待集成|
+|SilkQmlActiveX|卓越|嵌入ActiveX组件|永久免费|待定|待集成|
+|SilkQmlUpdate|卓越|在线自动升级|永久免费|待定|待重新设计|
+|SilkQmlImageCache|卓越|图形高速缓存|永久免费|待定|待集成|
+|SilkQmlPasswordSave|卓越|密码保存|永久免费|待定|待重新设计|
+|更多...|卓越|||||
 | | | | | | |
-|更多...|传说||||计划中|
+|更多...|传说|||||
 | | | | | | |
-|更多...|史诗||||计划中|
-|SilkQmlCloud|史诗|云端存储数据|5 ¥/月|非卖品|计划中|
+|更多...|史诗|||||
+|SilkQmlCloud|史诗|云端存储数据|5 ¥/月|非卖品|待重新设计|
 | | | | | | |
 |更多...|神话||||计划中|
-|SilkQmlP2PMessage|神话|P2P消息|5 ¥/月|非卖品|计划中|
-|SilkQmlRemoteViewer|神话|远程显示/控制|5 ¥/月|非卖品|计划中|
-|SilkQmlLiveAudio|神话|实时音频|5 ¥/月|非卖品|计划中|
-|SilkQmlLiveVideo|神话|实时视频|5 ¥/月|非卖品|计划中|
-|SilkQmlLiveMeeting|神话|实时会议|10 ¥/月|非卖品|计划中|
+|SilkQmlP2PMessage|神话|P2P消息|5 ¥/月|非卖品|待重新设计|
+|SilkQmlRemoteViewer|神话|远程显示/控制|5 ¥/月|非卖品|待重新设计|
+|SilkQmlLiveAudio|神话|实时音频|5 ¥/月|非卖品|待重新设计|
+|SilkQmlLiveVideo|神话|实时视频|5 ¥/月|非卖品|待重新设计|
+|SilkQmlLiveMeeting|神话|实时会议|10 ¥/月|非卖品|待重新设计|
 | | | | | | |
 
 
