@@ -21,6 +21,7 @@ Rectangle{
     property alias scrollBar: scrollBar
     property alias busyIndicator: busyIndicator
     property alias dial: dial
+    property alias toolTip: toolTip
     property alias list: list
     property Item vbar: null
     property color defaultHoverColor: "#ff6464"
@@ -564,6 +565,41 @@ Rectangle{
                 }
             }
 
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "ToolTip"
+
+                Button {
+                    height: 40
+                    width: 100
+                    anchors.centerIn: parent
+                    text: qsTr("显示Tooltip")
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                    ToolTip{
+                        id: toolTip
+                        visible: parent.hovered && enabled
+                        text: qsTr("这是显示的Tooltip文字")
+                    }
+                }
+            }
+
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "IPAddress"
+
+                Text {
+                    anchors.centerIn: parent
+                    text: qsTr("无")
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                }
+            }
         }
     }
 }

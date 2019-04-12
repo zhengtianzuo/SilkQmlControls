@@ -2,6 +2,7 @@
 import QtQuick.Controls 2.3
 import Qt.labs.platform 1.0
 import SilkQmlControls 1.0
+import SilkQmlControlsElitist 1.0
 
 Rectangle{
     property alias silkQmlText: silkQmlText
@@ -22,6 +23,8 @@ Rectangle{
     property alias silkQmlScrollBar: silkQmlScrollBar
     property alias silkQmlBusyIndicator: silkQmlBusyIndicator
     property alias silkQmlDial: silkQmlDial
+    property alias silkQmlToolTip: silkQmlToolTip
+    property alias silkQmlIPAddress: silkQmlIPAddress
     property Item vbar: null
     property color defaultHoverColor: "#ff6464"
     property color defaultColor: "#000000"
@@ -406,6 +409,53 @@ Rectangle{
                     height: 80
                     width: 80
                     anchors.centerIn: parent
+                }
+            }
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "SilkQmlToolTip"
+
+                SilkQmlButton {
+                    height: 40
+                    width: 100
+                    anchors.centerIn: parent
+                    text: qsTr("显示Tooltip")
+                    color: defaultColor
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                    SilkQmlToolTip{
+                        id: silkQmlToolTip
+                        s_showDelay: 1000
+                        text: qsTr("这是显示的Tooltip文字")
+                    }
+                }
+            }
+
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "SilkQmlIPAddress"
+
+                Column{
+                    anchors.centerIn: parent
+
+                    SilkQmlIPAddress {
+                        id: silkQmlIPAddress
+                        height: 30
+                        width: 150
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        onTextChanged: showIP.text = text;
+                    }
+                    SilkQmlText{
+                        id: showIP
+                        verticalAlignment: Text.AlignVCenter
+                        horizontalAlignment: Text.AlignHCenter
+                    }
                 }
             }
 

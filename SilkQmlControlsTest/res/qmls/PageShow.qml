@@ -3,6 +3,7 @@ import QtQuick.Window 2.2
 import QtQuick.Controls 2.3
 import Qt.labs.platform 1.0
 import SilkQmlControls 1.0
+import SilkQmlControlsElitist 1.0
 
 Rectangle{
     property alias vbar: vbar
@@ -36,6 +37,8 @@ Rectangle{
         clip: true
 
         Column{
+            id: allTitle
+            z: 1
             anchors.top: parent.top
             anchors.topMargin: nDefaultSpace
             spacing: nDefaultSpace
@@ -130,6 +133,7 @@ Rectangle{
             anchors.left: parent.left
             anchors.leftMargin: nDefaultSpace
             spacing: nDefaultSpace
+            clip: true
 
             Row{
                 spacing: nDefaultSpace
@@ -380,6 +384,37 @@ Rectangle{
                     width: 40
                 }
             }
+
+            Row{
+                width: parent.width/2
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: nDefaultSpace
+
+                SilkQmlButton {
+                    height: 40
+                    width: 100
+                    text: qsTr("显示Tooltip")
+                    color: defaultColor
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                    SilkQmlToolTip{
+                        text: qsTr("这是显示的Tooltip文字")
+                    }
+                }
+
+                SilkQmlIPAddress{
+                    height: 30
+                    width: 150
+                    anchors.verticalCenter: parent.verticalCenter
+                    onTextChanged: showIP.text = text;
+                }
+
+                SilkQmlText{
+                    id: showIP
+                    verticalAlignment: Text.AlignVCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+            }
         }
     }
 
@@ -413,7 +448,7 @@ Rectangle{
         width: 20
         active: true
         orientation: Qt.Vertical
-        size: (frame.height -nDefaultSpace*2) / allControl.height
+        size: (frame.height - allTitle.height - nDefaultSpace*4) / allControl.height
         anchors.top: frame.top
         anchors.right: parent.right
         anchors.rightMargin: nDefaultSpace/2

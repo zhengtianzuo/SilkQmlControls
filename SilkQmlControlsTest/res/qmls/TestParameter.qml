@@ -49,6 +49,9 @@ Rectangle{
     property Item silkQmlBusyIndicator: item
     property Item dial: item
     property Item silkQmlDial: item
+    property ToolTip toolTip: item
+    property Item silkQmlToolTip: item
+    property Item silkQmlIPAddress: item
     property color defaultHoverColor: "#ff6464"
     property color defaultColor: "#148014"
     property color disabledColor: "#aaaaaa"
@@ -1232,6 +1235,61 @@ Rectangle{
             }
 
 
+            TestRectangle{//Tooltip
+                visible: bShow
+                height: 150
+                width: parent.width
+                text: qsTr("")
+                contentWidth: tooltipRow.width
+                clip: true
+
+                Row{
+                    id: tooltipRow
+                    x: nDefaultSpace/2-parent.hbar.position*parent.width
+                    anchors.verticalCenter: parent.verticalCenter
+                    spacing: 2
+
+                    SilkQmlCheckBox {
+                        height: 40
+                        width: 70
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: qsTr("可用")
+                        checked: true
+                        onCheckedChanged: {
+                            toolTip.enabled = checked;
+                            silkQmlToolTip.enabled = checked;
+                        }
+                    }
+                }
+            }
+
+
+            TestRectangle{//IPAddress
+                visible: bShow
+                height: 150
+                width: parent.width
+                text: qsTr("")
+                contentWidth: iPAddressRow.width
+                clip: true
+
+                Row{
+                    id: iPAddressRow
+                    x: nDefaultSpace/2-parent.hbar.position*parent.width
+                    anchors.verticalCenter: parent.verticalCenter
+                    spacing: 2
+
+                    SilkQmlCheckBox {
+                        height: 40
+                        width: 70
+                        anchors.verticalCenter: parent.verticalCenter
+                        text: qsTr("可用")
+                        checked: true
+                        onCheckedChanged: {
+                            silkQmlIPAddress.enabled = checked;
+                        }
+                    }
+                }
+            }
         }
     }
 }
