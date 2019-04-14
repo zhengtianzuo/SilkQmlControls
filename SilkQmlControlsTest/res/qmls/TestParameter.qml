@@ -1,4 +1,11 @@
-﻿import QtQuick 2.7
+﻿/*!
+ *@file TestParameter.qml
+ *@brief 参数调整
+ *@version 1.0
+ *@section LICENSE Copyright (C) 2003-2103 CamelSoft Corporation
+ *@author zhengtianzuo
+*/
+import QtQuick 2.7
 import QtQuick.Controls 2.3
 import Qt.labs.platform 1.0
 import SilkQmlControls 1.0
