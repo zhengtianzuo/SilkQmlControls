@@ -1,4 +1,11 @@
-﻿import QtQuick 2.7
+﻿/*!
+ *@file QtQuickControls.qml
+ *@brief 原生Qml界面组件
+ *@version 1.0
+ *@section LICENSE Copyright (C) 2003-2103 CamelSoft Corporation
+ *@author zhengtianzuo
+*/
+import QtQuick 2.7
 import QtQuick.Controls 2.3
 import Qt.labs.platform 1.0
 
@@ -21,6 +28,7 @@ Rectangle{
     property alias scrollBar: scrollBar
     property alias busyIndicator: busyIndicator
     property alias dial: dial
+    property alias toolTip: toolTip
     property alias list: list
     property Item vbar: null
     property color defaultHoverColor: "#ff6464"
@@ -564,6 +572,41 @@ Rectangle{
                 }
             }
 
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "ToolTip"
+
+                Button {
+                    height: 40
+                    width: 100
+                    anchors.centerIn: parent
+                    text: qsTr("显示Tooltip")
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                    ToolTip{
+                        id: toolTip
+                        visible: parent.hovered && enabled
+                        text: qsTr("这是显示的Tooltip文字")
+                    }
+                }
+            }
+
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "IPAddress"
+
+                Text {
+                    anchors.centerIn: parent
+                    text: qsTr("无")
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                }
+            }
         }
     }
 }

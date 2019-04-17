@@ -1,7 +1,15 @@
-﻿import QtQuick 2.7
+﻿/*!
+ *@file PageTest.qml
+ *@brief 浏览组件
+ *@version 1.0
+ *@section LICENSE Copyright (C) 2003-2103 CamelSoft Corporation
+ *@author zhengtianzuo
+*/
+import QtQuick 2.7
 import QtQuick.Window 2.2
 import QtQuick.Controls 2.3
 import SilkQmlControls 1.0
+import SilkQmlControlsElitist 1.0
 
 Rectangle{
     property alias vbar: vbar
@@ -127,6 +135,9 @@ Rectangle{
                 silkQmlBusyIndicator: silkQmlControls.silkQmlBusyIndicator
                 dial: qtQuickControls.dial
                 silkQmlDial: silkQmlControls.silkQmlDial
+                toolTip: qtQuickControls.toolTip
+                silkQmlToolTip: silkQmlControls.silkQmlToolTip
+                silkQmlIPAddress: silkQmlControls.silkQmlIPAddress
             }
         }
     }
