@@ -122,8 +122,8 @@ myapp.exe                     //自己的程序
 |SilkQmlBusyIndicator|普通|BusyIndicator 2.x|永久免费|--|完成|
 |SilkQmlDial|普通|Dial 2.x|永久免费|--|完成|
 | | | | | | |
-|SilkQmlToolTip|精英|提示信息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
-|SilkQmlIPAddress|精英|IP输入框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
+|SilkQmlToolTip|精英|提示信息|永久免费|50 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89083160)
+|SilkQmlIPAddress|精英|IP输入框|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
 |SilkQmlDialog|精英|自定义对话框|永久免费|待定|待重新设计|
 |SilkQmlColorDialog|精英|颜色输入对话框|永久免费|待定|待集成|
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|待重新设计|
