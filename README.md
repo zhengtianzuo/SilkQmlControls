@@ -156,8 +156,8 @@ myapp.exe                     //自己的程序
 |SilkQmlUpdate|卓越|在线自动升级|永久免费|待定|待重新设计|
 |SilkQmlImageCache|卓越|图形高速缓存|永久免费|待定|待集成|
 |SilkQmlPasswordSave|卓越|密码保存|永久免费|待定|待重新设计|
-|SilkQmlKeys|卓越|全局按键|永久免费|待定|待重新设计|
-|SilkQmlEMail|卓越|发送邮件|永久免费|待定|待重新设计|
+|SilkQmlKeys|卓越|全局按键|永久免费|待定|待集成|
+|SilkQmlEMail|卓越|发送邮件|永久免费|待定|待集成|
 |更多...|卓越|||||
 | | | | | | |
 |更多...|传说|||||
