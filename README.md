@@ -128,7 +128,6 @@ myapp.exe                     //自己的程序
 |SilkQmlIPAddress|精英|IP输入框|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89186074)
 |SilkQmlDialog|精英|自定义对话框|永久免费|500 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89390701)
 |SilkQmlColorDialog|精英|颜色输入对话框|永久免费|500 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89642048)
-|SilkQmlFileDialog|精英|文件选择对话框|永久免费|待定|待重新设计|
 |SilkQmlFontDialog|精英|字体选择对话框|永久免费|待定|待重新设计|
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|待定|待重新设计|
 |SilkQmlNotification|精英|通知消息|永久免费|待定|待集成|
