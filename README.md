@@ -131,7 +131,7 @@ myapp.exe                     //自己的程序
 |SilkQmlFontDialog|精英|字体选择对话框|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89712903)
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89884052)
 |SilkQmlNotification|精英|通知消息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89886368)
-|SilkQmlShowFps|精英|显示fps|永久免费|待定|待集成|
+|SilkQmlShowFps|精英|显示fps|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89923849)
 |SilkQmlTrayIcon|精英|自定义托盘|永久免费|待定|待集成|
 |SilkQmlClipboard|精英|剪切板|永久免费|待定|待集成|
 | | | | | |
@@ -163,6 +163,7 @@ myapp.exe                     //自己的程序
 |SilkQmlKeys|卓越|全局按键|永久免费|待定|待集成|
 |SilkQmlEMail|卓越|发送邮件|永久免费|待定|待集成|
 |SilkQmlRadar|卓越|雷达|永久免费|待定|待重新设计|
+|SilkQmlCapabilityMap|卓越|能力图谱|永久免费|待定|待重新设计|
 |更多...|卓越|||||
 | | | | | | |
 |更多...|传说|||||
