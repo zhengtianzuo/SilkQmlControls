@@ -134,18 +134,19 @@ myapp.exe                     //自己的程序
 |SilkQmlShowFps|精英|显示fps|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89923849)
 |SilkQmlTrayIcon|精英|自定义托盘|永久免费|待定|待集成|
 |SilkQmlClipboard|精英|剪切板|永久免费|待定|待集成|
+|SilkQmlComponentManager|精英|Quick组件管理|永久免费|待定|待集成|
+|SilkQmlDragDrop|精英|对象拖放|永久免费|待定|待集成|
+|SilkQmlMoveComponent|精英|动态移动对象|永久免费|待定|待集成|
+|SilkQmlKeys|精英|全局按键|永久免费|待定|待集成|
 | | | | | |
 |SilkQmlCalendar|卓越|自定义日历|永久免费|待定|待集成|
 |SilkQmlHanzi2Pinyin|卓越|汉字转拼音|永久免费|待定|待集成|
 |SilkQmlYUVPlayer|卓越|YUV码流显示|永久免费|待定|待重新设计|
-|SilkQmlComponentManager|卓越|Quick组件管理|永久免费|待定|待集成|
 |SilkQmlDrawingBoard|卓越|画板|永久免费|待定|待集成|
 |SilkQmlHttpDownload|卓越|Http文件下载|永久免费|待定|待集成|
-|SilkQmlDragDrop|卓越|对象拖放|永久免费|待定|待集成|
 |SilkQmlGenerateQRCode|卓越|创建二维码图片|永久免费|待定|待集成|
 |SilkQmlScanQRCode|卓越|扫描二维码图片|永久免费|待定|待集成|
 |SilkQmlKeyboard|卓越|虚拟键盘|永久免费|待定|待重新设计|
-|SilkQmlMoveComponent|卓越|动态移动对象|永久免费|待定|待集成|
 |SilkQmlTimeLine|卓越|时间刻度条|永久免费|待定|待重新设计|
 |SilkQmlWeather|卓越|天气预报|永久免费|待定|待集成|
 |SilkQmlNavigationProgress|卓越|导航进度|永久免费|待定|待重新设计|
@@ -160,7 +161,6 @@ myapp.exe                     //自己的程序
 |SilkQmlUpdate|卓越|在线自动升级|永久免费|待定|待重新设计|
 |SilkQmlImageCache|卓越|图形高速缓存|永久免费|待定|待集成|
 |SilkQmlPasswordSave|卓越|密码保存|永久免费|待定|待重新设计|
-|SilkQmlKeys|卓越|全局按键|永久免费|待定|待集成|
 |SilkQmlEMail|卓越|发送邮件|永久免费|待定|待集成|
 |SilkQmlRadar|卓越|雷达|永久免费|待定|待重新设计|
 |SilkQmlCapabilityMap|卓越|能力图谱|永久免费|待定|待重新设计|
