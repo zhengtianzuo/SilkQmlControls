@@ -132,7 +132,7 @@ myapp.exe                     //自己的程序
 |SilkQmlMessageDialog|精英|消息提醒对话框|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89884052)
 |SilkQmlNotification|精英|通知消息|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89886368)
 |SilkQmlShowFps|精英|显示fps|永久免费|100 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/89923849)
-|SilkQmlComponentManager|精英|Quick组件管理|永久免费|待定|待集成|
+|SilkQmlComponentManager|精英|Quick组件管理|永久免费|300 ¥|完成|[去看看](https://blog.csdn.net/zhengtianzuo06/article/details/90081027)
 |SilkQmlDragDrop|精英|对象拖放|永久免费|待定|待集成|
 |SilkQmlMoveComponent|精英|动态移动对象|永久免费|待定|待集成|
 |SilkQmlKeys|精英|全局按键|永久免费|待定|待集成|
