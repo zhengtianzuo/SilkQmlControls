@@ -6367,6 +6367,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6385,6 +6390,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6395,6 +6405,11 @@ Module {
         exportMetaObjectRevisions: [0]
         Property { name: "tristate"; type: "bool" }
         Property { name: "checkState"; type: "Qt::CheckState" }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -6449,6 +6464,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6468,6 +6488,11 @@ Module {
         Property { name: "progress"; type: "double" }
         Property { name: "transition"; type: "QQuickTransition"; isPointer: true }
         Signal { name: "activated" }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -6494,6 +6519,11 @@ Module {
         Signal { name: "liveChanged"; revision: 2 }
         Method { name: "increase" }
         Method { name: "decrease" }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -6661,6 +6691,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6675,6 +6710,11 @@ Module {
         Property { name: "position"; type: "double"; isReadonly: true }
         Property { name: "visualPosition"; type: "double"; isReadonly: true }
         Property { name: "indeterminate"; type: "bool" }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -6806,6 +6846,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6817,6 +6862,11 @@ Module {
         Property { name: "gradient"; type: "QQuickGradient"; isPointer: true }
         Property { name: "border"; type: "QQuickPen"; isReadonly: true; isPointer: true }
         Property { name: "radius"; type: "double" }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -6851,6 +6901,11 @@ Module {
         Method {
             name: "setPosition"
             Parameter { name: "position"; type: "double" }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
         }
         Method {
             name: "s_setAllEnabled"
@@ -6892,6 +6947,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6922,6 +6982,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -6932,6 +6997,11 @@ Module {
         exportMetaObjectRevisions: [0]
         Property { name: "position"; type: "double" }
         Property { name: "visualPosition"; type: "double"; isReadonly: true }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -7023,6 +7093,11 @@ Module {
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
         }
     }
     Component {
@@ -7031,6 +7106,11 @@ Module {
         prototype: "SilkQmlQuickControl"
         exports: ["SilkQmlControls/SilkQmlToolBar 1.0"]
         exportMetaObjectRevisions: [0]
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
+        }
         Method {
             name: "s_setAllEnabled"
             Parameter { name: "bEnabled"; type: "bool" }
@@ -7048,6 +7128,11 @@ Module {
                 "Header": 0,
                 "Footer": 1
             }
+        }
+        Method {
+            name: "s_setAllEnabled"
+            Parameter { name: "bEnabled"; type: "bool" }
+            Parameter { name: "parent"; type: "QQuickItem"; isPointer: true }
         }
         Method {
             name: "s_setAllEnabled"

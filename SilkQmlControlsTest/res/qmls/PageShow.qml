@@ -416,14 +416,84 @@ Rectangle{
                     onTextChanged: showIP.text = text;
                 }
 
-                SilkQmlText{
-                    id: showIP
-                    verticalAlignment: Text.AlignVCenter
+                Rectangle{
+                    height: 30
+                    width: 100
                     anchors.verticalCenter: parent.verticalCenter
+                    color: "transparent"
+                    border.width: 1
+                    border.color: "#000000"
+
+                    SilkQmlText{
+                        id: showIP
+                        text: qsTr("IP地址")
+                        anchors.centerIn: parent
+                        verticalAlignment: Text.AlignVCenter
+                    }
+                }
+            }
+
+            Row{
+                width: parent.width/2
+                anchors.horizontalCenter: parent.horizontalCenter
+                spacing: nDefaultSpace
+
+                SilkQmlButton {
+                    height: 40
+                    width: 100
+                    text: qsTr("选择颜色")
+                    color: defaultColor
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                    onClicked: {
+                        silkQmlColorDialog.show();
+                    }
+                }
+
+
+                Rectangle {
+                    id: colorRectangle
+                    height: 40
+                    width: 100
+                    color: "red"
+                    border.color: "#21be2b"
+                    border.width: 1
                 }
             }
         }
     }
+
+    Window{
+        id: silkQmlColorDialog
+        flags: Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.Window
+        visible: false
+        height: 460
+        width: 690
+        color: "#3c3c3c"
+
+        SilkQmlDialog{
+            anchors.fill: parent
+            color: "transparent"
+            s_title: qsTr("选择颜色")
+            s_rootWindow: silkQmlColorDialog
+            s_hasShadow: true
+        }
+
+        SilkQmlColorDialog{
+            anchors.top: parent.top
+            anchors.topMargin: 48
+            anchors.bottom: parent.bottom
+            width: parent.width
+            onSelectedColor: {
+                colorRectangle.color = color;
+            }
+            onCloseWindow: {
+                silkQmlColorDialog.close();
+            }
+        }
+    }
+
+
 
     TestRectangle{
         id: controlAll

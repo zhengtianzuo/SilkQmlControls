@@ -138,6 +138,8 @@ Rectangle{
                 toolTip: qtQuickControls.toolTip
                 silkQmlToolTip: silkQmlControls.silkQmlToolTip
                 silkQmlIPAddress: silkQmlControls.silkQmlIPAddress
+                silkQmlDialog: silkQmlControls.silkQmlDialog
+                silkQmlColorDialog: silkQmlControls.silkQmlColorDialog
             }
         }
     }

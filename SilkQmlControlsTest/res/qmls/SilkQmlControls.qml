@@ -6,6 +6,7 @@
  *@author zhengtianzuo
 */
 import QtQuick 2.7
+import QtQuick.Window 2.2
 import QtQuick.Controls 2.3
 import Qt.labs.platform 1.0
 import SilkQmlControls 1.0
@@ -32,6 +33,8 @@ Rectangle{
     property alias silkQmlDial: silkQmlDial
     property alias silkQmlToolTip: silkQmlToolTip
     property alias silkQmlIPAddress: silkQmlIPAddress
+    property alias silkQmlDialog: silkQmlDialog
+    property alias silkQmlColorDialog: silkQmlColorDialog
     property Item vbar: null
     property color defaultHoverColor: "#ff6464"
     property color defaultColor: "#000000"
@@ -435,12 +438,11 @@ Rectangle{
                     font.pixelSize: 14
                     SilkQmlToolTip{
                         id: silkQmlToolTip
-                        s_showDelay: 1000
+                        s_showDelay: 0
                         text: qsTr("这是显示的Tooltip文字")
                     }
                 }
             }
-
 
             TestRectangle{
                 visible: true
@@ -450,6 +452,7 @@ Rectangle{
 
                 Column{
                     anchors.centerIn: parent
+                    spacing: 4
 
                     SilkQmlIPAddress {
                         id: silkQmlIPAddress
@@ -458,13 +461,105 @@ Rectangle{
                         anchors.horizontalCenter: parent.horizontalCenter
                         onTextChanged: showIP.text = text;
                     }
-                    SilkQmlText{
-                        id: showIP
-                        verticalAlignment: Text.AlignVCenter
-                        horizontalAlignment: Text.AlignHCenter
+                    Rectangle{
+                        height: 30
+                        width: 100
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        color: "transparent"
+                        border.width: 1
+                        border.color: "#000000"
+
+                        SilkQmlText{
+                            id: showIP
+                            text: qsTr("IP地址")
+                            anchors.centerIn: parent
+                            verticalAlignment: Text.AlignVCenter
+                        }
                     }
                 }
             }
+
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "SilkQmlDialog"
+
+                SilkQmlDialog {
+                    id: silkQmlDialog
+                    height: 100
+                    width: parent.width
+                    anchors.centerIn: parent
+                    color: "transparent"
+                    s_title: qsTr("自定义窗体")
+                }
+            }
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "SilkQmlColorDialog"
+
+                Row{
+                    anchors.centerIn: parent
+                    spacing: 6
+
+                    SilkQmlButton {
+                        height: 40
+                        width: 100
+                        text: qsTr("选择颜色")
+                        font.family: "microsoft yahei"
+                        font.pixelSize: 14
+                        onClicked: {
+                            silkQmlCDialog.show();
+                        }
+                    }
+
+                    Rectangle {
+                        id: colorRectangle
+                        height: 40
+                        width: 100
+                        color: "red"
+                        border.color: "#21be2b"
+                        border.width: 1
+                    }
+                }
+
+                Window{
+                    id: silkQmlCDialog
+                    flags: Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.Window
+                    visible: false
+                    height: 460
+                    width: 690
+                    color: "#3c3c3c"
+
+                    SilkQmlDialog{
+                        anchors.fill: parent
+                        color: "transparent"
+                        s_title: qsTr("选择颜色")
+                        s_rootWindow: silkQmlCDialog
+                        s_hasShadow: true
+                    }
+
+                    SilkQmlColorDialog{
+                        id: silkQmlColorDialog
+                        anchors.top: parent.top
+                        anchors.topMargin: 48
+                        anchors.bottom: parent.bottom
+                        width: parent.width
+                        onSelectedColor: {
+                            colorRectangle.color = color;
+                        }
+                        onCloseWindow: {
+                            silkQmlCDialog.close();
+                        }
+                    }
+                }
+            }
+
+
 
 
         }

@@ -11,13 +11,12 @@ import QtQuick.Controls 2.3
 import SilkQmlControls 1.0
 import SilkQmlControlsElitist 1.0
 
-Window {
+Window{
     id: frmWindow
     visible: true
+    flags: Qt.FramelessWindowHint | Qt.WindowSystemMenuHint | Qt.WindowMinimizeButtonHint | Qt.Window
     width: 1024
     height: 768
-    title: qsTr("三峰驼演示程序")
-    flags: Qt.Window | Qt.FramelessWindowHint
     color: "#e0e0e0"
     Component.onCompleted: SilkQmlCtrls.s_loadSkin("PicDefault", "camel");
 
@@ -26,7 +25,6 @@ Window {
     property color disabledColor: "#aaaaaa"
 
     Image {
-        id: imgBack
         anchors.fill: parent
         source: "qrc:/images/SilkStyle_Back.png"
     }
@@ -78,66 +76,12 @@ Window {
         }
     }
 
-    Rectangle{
-        height: 36
-        width: parent.width
+    SilkQmlDialog{
+        anchors.fill: parent
         color: "transparent"
-
-        Row{
-            anchors.top: parent.top
-            anchors.topMargin: nDefaultSpace/2
-            anchors.left: parent.left
-            anchors.leftMargin: nDefaultSpace/2
-            height: 36
-            width: parent.width
-            spacing: nDefaultSpace/2
-
-            Image{
-                height: 24
-                width: 24
-                anchors.verticalCenter: parent.verticalCenter
-                source: "qrc:/camel3.ico"
-            }
-
-            Text{
-                height: 36
-                text: qsTr("三峰驼演示程序")
-                font.family: "Microsoft YaHei"
-                font.pixelSize: 15
-                verticalAlignment: Text.AlignVCenter
-                color: defaultColor
-            }
-        }
-
-        Row{
-            height: 36
-            spacing: nDefaultSpace/2
-            anchors.top: parent.top
-            anchors.topMargin: nDefaultSpace/2
-            anchors.right: parent.right
-            anchors.rightMargin: nDefaultSpace/2
-            SilkQmlButton{
-                height: 20
-                width: 20
-                s_imageName: "ButtonMin"
-                s_outOfAll: true
-                onClicked: {
-                    showMinimized();
-                }
-            }
-            SilkQmlButton{
-                height: 20
-                width: 20
-                s_imageName: "ButtonClose"
-                s_outOfAll: true
-                onClicked: {
-                    Qt.quit();
-                }
-                SilkQmlToolTip{
-                    text: qsTr("关闭")
-                }
-            }
-        }
+        s_title: qsTr("三峰驼演示程序")
+        s_rootWindow: frmWindow
+        s_hasShadow: true
     }
 
     TestTabBar{
@@ -153,7 +97,6 @@ Window {
             myModel.append({ "modelText": qsTr("矢量换肤"), "modelColor": "#148014", "modelColorG": "#4040ff", "modelSrc": "qrc:/images/SVG.svg", "modelSrcG": "qrc:/images/SVGG.svg"})
             myModel.append({ "modelText": qsTr("图片换肤"), "modelColor": "#148014", "modelColorG": "#4040ff", "modelSrc": "qrc:/images/PIC.svg", "modelSrcG": "qrc:/images/PICG.svg"})
             myModel.append({ "modelText": qsTr("浏览组件"), "modelColor": "#148014", "modelColorG": "#4040ff", "modelSrc": "qrc:/images/Controls.svg", "modelSrcG": "qrc:/images/ControlsG.svg"})
-            //bar.currentIndex = 1;
         }
     }
 

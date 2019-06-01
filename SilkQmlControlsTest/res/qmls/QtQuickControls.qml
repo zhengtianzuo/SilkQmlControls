@@ -29,6 +29,7 @@ Rectangle{
     property alias busyIndicator: busyIndicator
     property alias dial: dial
     property alias toolTip: toolTip
+    property alias colorDialog: colorDialog
     property alias list: list
     property Item vbar: null
     property color defaultHoverColor: "#ff6464"
@@ -97,31 +98,9 @@ Rectangle{
                     width: 100
                     anchors.centerIn: parent
                     text: qsTr("按钮")
-//                    opacity: 1.0
-//                    contentItem: Text {
-//                        text: parent.text
-//                        color: enabled?(btnMouseArea.pressed ? "red":btnMouseArea.containsMouse? defaultHoverColor:defaultColor):disabledColor
-//                        horizontalAlignment: Text.AlignHCenter
-//                        verticalAlignment: Text.AlignVCenter
-//                        font.family: "microsoft yahei"
-//                        font.pixelSize: 14
-//                    }
-//                    background: Image{
-//                        id: backImage
-//                        anchors.fill: parent
-//                        source: "qrc:/images/Button.png"
-//                    }
-//                    MouseArea{
-//                        id: btnMouseArea
-//                        anchors.fill: parent
-//                        hoverEnabled: true
-//                        onEntered: backImage.source = "qrc:/images/ButtonHover.png"
-//                        onPressed: backImage.source = "qrc:/images/ButtonPressed.png"
-//                        onExited: backImage.source = "qrc:/images/Button.png"
-//                        onClicked: {
-//                            showMsg(qsTr("触发了按钮"))
-//                        }
-//                    }
+                    onClicked: {
+                        showMsg(qsTr("触发了按钮"))
+                    }
                 }
             }
 
@@ -188,20 +167,6 @@ Rectangle{
                             inputMethodHints: Qt.ImhFormattedNumbersOnly
                             selectByMouse: true
                         }
-//                        up.indicator: Image{
-//                            x: spinBox.mirrored ? 0 : parent.width - width
-//                            height: 20
-//                            width: 20
-//                            anchors.verticalCenter: parent.verticalCenter
-//                            source: "qrc:/images/SpinBoxUp.svg"
-//                        }
-//                        down.indicator:Image{
-//                            x: spinBox.mirrored ? parent.width - width : 0
-//                            height: 20
-//                            width: 20
-//                            anchors.verticalCenter: parent.verticalCenter
-//                            source: "qrc:/images/SpinBoxDown.svg"
-//                        }
                         background: Rectangle{
                             anchors.fill: parent
                             color: "transparent"
@@ -243,14 +208,6 @@ Rectangle{
                                 radius: 2
                             }
                         }
-
-//                        handle: Image {
-//                            x: slider.leftPadding + slider.visualPosition * (slider.availableWidth - width)
-//                            y: slider.topPadding + slider.availableHeight / 2 - height / 2
-//                            width: 18
-//                            height: 18
-//                            source: "qrc:/images/SliderIndicatorButton.svg"
-//                        }
                     }
 
                     Slider {
@@ -278,14 +235,6 @@ Rectangle{
                                 radius: 2
                             }
                         }
-
-//                        handle: Image {
-//                            x: slider1.leftPadding + slider1.availableWidth / 2 - width / 2
-//                            y: slider1.topPadding + slider1.visualPosition * (slider1.availableHeight - height)
-//                            width: 18
-//                            height: 18
-//                            source: "qrc:/images/SliderIndicatorButton.svg"
-//                        }
                     }
                 }
             }
@@ -388,31 +337,9 @@ Rectangle{
                     width: 100
                     anchors.centerIn: parent
                     text: qsTr("按钮")
-//                    opacity: 1.0
-//                    contentItem: Text {
-//                        text: parent.text
-//                        color: enabled?(tbtnMouseArea.pressed ? "red":tbtnMouseArea.containsMouse? defaultHoverColor:defaultColor):disabledColor
-//                        horizontalAlignment: Text.AlignHCenter
-//                        verticalAlignment: Text.AlignVCenter
-//                        font.family: "microsoft yahei"
-//                        font.pixelSize: 14
-//                    }
-//                    background: Image{
-//                        id: tbackImage
-//                        anchors.fill: parent
-//                        source: "qrc:/images/Button.png"
-//                    }
-//                    MouseArea{
-//                        id: tbtnMouseArea
-//                        anchors.fill: parent
-//                        hoverEnabled: true
-//                        onEntered: tbackImage.source = "qrc:/images/ButtonHover.png"
-//                        onPressed: tbackImage.source = "qrc:/images/ButtonPressed.png"
-//                        onExited: tbackImage.source = "qrc:/images/Button.png"
-//                        onClicked: {
-//                            showMsg(qsTr("触发了按钮"))
-//                        }
-//                    }
+                    onClicked: {
+                        showMsg(qsTr("触发了按钮"))
+                    }
                 }
             }
 
@@ -593,7 +520,6 @@ Rectangle{
                 }
             }
 
-
             TestRectangle{
                 visible: true
                 height: 150
@@ -607,6 +533,65 @@ Rectangle{
                     font.pixelSize: 14
                 }
             }
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "Dialog"
+
+                Text {
+                    anchors.centerIn: parent
+                    text: qsTr("无")
+                    font.family: "microsoft yahei"
+                    font.pixelSize: 14
+                }
+            }
+
+            TestRectangle{
+                visible: true
+                height: 150
+                width: parent.width
+                text: "ColorDialog"
+
+                Row{
+                    anchors.centerIn: parent
+                    spacing: 6
+
+                    Button {
+                        height: 40
+                        width: 100
+                        text: qsTr("选择颜色")
+                        font.family: "microsoft yahei"
+                        font.pixelSize: 14
+                        onClicked: {
+                            colorDialog.open();
+                        }
+                    }
+
+                    Rectangle {
+                        id: colorRectangle
+                        height: 40
+                        width: 100
+                        color: "red"
+                        border.color: "#21be2b"
+                        border.width: 1
+                    }
+                }
+
+                ColorDialog {
+                    id: colorDialog
+                    title: qsTr("选择颜色")
+                    color: defaultColor
+                    onAccepted: {
+                        colorRectangle.color = color;
+                    }
+                }
+            }
+
+
+
+
         }
     }
 }
